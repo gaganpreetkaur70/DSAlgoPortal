@@ -1,0 +1,247 @@
+[INFO ]2023-09-15 17:11:33.672[main]LoggerLoad------Testing Info----
+[WARN ]2023-09-15 17:11:33.675[main]LoggerLoad------Testing Warn---
+[ERROR]2023-09-15 17:11:33.676[main]LoggerLoad-----Testing Error----
+[INFO ]2023-09-15 23:37:00.052[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-15 23:38:08.474[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-15 23:49:14.857[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-15 23:49:15.413[main]LoggerLoad-Clicked on the link
+[INFO ]2023-09-15 23:59:24.381[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-15 23:59:24.865[main]LoggerLoad-Clicked on the link
+[INFO ]2023-09-16 00:02:54.832[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 00:02:55.714[main]LoggerLoad-Clicked on the link
+[INFO ]2023-09-16 00:03:54.566[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 00:03:55.050[main]LoggerLoad-Clicked on the link
+[INFO ]2023-09-16 00:03:55.273[main]LoggerLoad-Entered username
+[INFO ]2023-09-16 00:03:55.360[main]LoggerLoad-Password entry
+[INFO ]2023-09-16 00:03:55.428[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-09-16 00:04:15.225[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 00:04:15.683[main]LoggerLoad-Clicked on the link
+[INFO ]2023-09-16 00:04:15.909[main]LoggerLoad-Entered username
+[INFO ]2023-09-16 00:04:15.982[main]LoggerLoad-Password entry
+[INFO ]2023-09-16 00:04:16.050[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-09-16 00:04:41.247[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 00:04:41.727[main]LoggerLoad-Clicked on the link
+[INFO ]2023-09-16 00:04:41.971[main]LoggerLoad-Entered username
+[INFO ]2023-09-16 00:04:42.052[main]LoggerLoad-Password entry
+[INFO ]2023-09-16 00:04:42.113[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-09-16 15:17:21.137[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 15:17:21.648[main]LoggerLoad-Clicked on the link
+[INFO ]2023-09-16 15:17:21.903[main]LoggerLoad-Entered username
+[INFO ]2023-09-16 15:17:21.962[main]LoggerLoad-Password entry
+[INFO ]2023-09-16 15:17:22.022[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-09-16 15:20:45.632[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 15:20:46.085[main]LoggerLoad-Clicked on the link
+[INFO ]2023-09-16 15:20:46.310[main]LoggerLoad-Entered username
+[INFO ]2023-09-16 15:20:46.379[main]LoggerLoad-Password entry
+[INFO ]2023-09-16 15:20:46.433[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-09-16 15:21:24.708[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 15:21:25.144[main]LoggerLoad-Clicked on the link
+[INFO ]2023-09-16 15:21:25.347[main]LoggerLoad-Entered username
+[INFO ]2023-09-16 15:21:25.436[main]LoggerLoad-Password entry
+[INFO ]2023-09-16 15:21:25.492[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-09-16 15:27:41.852[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 15:27:42.326[main]LoggerLoad-Clicked on the link
+[INFO ]2023-09-16 15:27:42.550[main]LoggerLoad-Entered username
+[INFO ]2023-09-16 15:27:42.641[main]LoggerLoad-Password entry
+[INFO ]2023-09-16 15:27:42.694[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-09-16 15:46:20.274[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 15:46:20.713[main]LoggerLoad-Clicked on the link
+[INFO ]2023-09-16 15:46:20.935[main]LoggerLoad-Entered username
+[INFO ]2023-09-16 15:46:21.024[main]LoggerLoad-Password entry
+[INFO ]2023-09-16 15:46:21.082[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-09-16 15:48:09.909[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 15:48:10.379[main]LoggerLoad-Clicked on the link
+[INFO ]2023-09-16 15:48:10.623[main]LoggerLoad-Entered username
+[INFO ]2023-09-16 15:48:10.733[main]LoggerLoad-Password entry
+[INFO ]2023-09-16 15:48:10.818[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-09-16 15:53:28.155[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 15:53:29.169[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 16:05:02.996[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 16:05:04.169[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 16:09:43.897[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 16:09:44.965[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 16:37:36.581[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 16:37:37.745[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 16:37:38.185[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 16:39:01.834[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 16:39:02.938[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 16:39:03.357[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 16:46:00.260[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 16:46:01.377[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 16:46:01.867[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 16:47:07.450[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 16:47:08.474[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 16:47:08.943[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 22:15:31.433[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 22:15:33.047[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 22:15:33.481[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 22:17:28.552[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 22:17:29.722[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 22:17:30.190[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 22:18:22.053[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 22:18:23.350[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 22:18:23.822[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 22:19:33.847[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 22:19:34.944[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 22:19:35.342[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 22:20:19.987[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 22:21:28.851[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 22:21:39.967[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 22:21:41.138[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 22:21:41.714[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 22:25:12.765[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 22:25:13.942[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 22:25:14.369[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 22:25:14.862[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-16 22:25:15.363[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-16 22:57:39.342[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 22:57:40.961[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 22:57:41.602[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 22:57:42.257[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-16 22:57:42.995[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-16 23:07:27.640[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 23:07:51.380[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 23:07:52.376[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 23:07:52.771[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 23:07:53.099[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-16 23:07:53.578[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-16 23:07:54.525[main]LoggerLoad-User can click on Try Here Link
+[INFO ]2023-09-16 23:07:54.804[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-16 23:14:44.749[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 23:14:45.735[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 23:14:46.100[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 23:14:46.413[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-16 23:14:46.886[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-16 23:14:48.113[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-16 23:14:48.372[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-16 23:14:48.697[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-16 23:20:17.730[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 23:20:18.643[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 23:20:19.318[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 23:20:19.666[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-16 23:20:20.133[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-16 23:20:21.185[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-16 23:20:21.533[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-16 23:20:21.929[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-16 23:32:25.496[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 23:32:26.506[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 23:32:26.838[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 23:32:27.136[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-16 23:32:27.603[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-16 23:32:28.856[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-16 23:32:29.210[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-16 23:32:29.567[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-16 23:40:20.531[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 23:40:21.236[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 23:40:44.528[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 23:40:45.434[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 23:40:45.779[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 23:40:46.079[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-16 23:40:46.525[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-16 23:40:47.689[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-16 23:40:48.079[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-16 23:40:48.471[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-16 23:42:30.599[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-16 23:42:31.505[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-16 23:42:31.855[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-16 23:42:32.189[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-16 23:42:32.624[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-16 23:42:33.546[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-16 23:42:33.878[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-16 23:42:34.206[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-17 14:42:55.483[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-17 14:42:56.585[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-17 14:42:56.946[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-17 14:42:57.399[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-17 14:42:58.136[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-17 14:42:59.087[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-17 14:42:59.476[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-17 14:42:59.909[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-17 14:46:17.319[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-17 14:46:18.431[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-17 14:46:18.790[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-17 14:46:19.170[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-17 14:46:19.674[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-17 14:46:20.993[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-17 14:46:21.438[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-17 14:46:21.831[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-17 14:47:30.651[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-17 14:47:31.670[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-17 14:47:32.096[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-17 14:47:32.522[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-17 14:47:33.459[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-17 14:47:34.389[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-17 14:47:34.797[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-17 14:47:35.258[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-17 14:57:33.848[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-17 14:57:34.994[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-17 14:57:35.449[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-17 14:57:35.900[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-17 14:57:36.423[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-17 14:57:37.547[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-17 14:57:38.003[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-17 14:57:38.470[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-17 14:59:03.621[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-17 14:59:04.760[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-17 14:59:05.202[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-17 14:59:05.686[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-17 14:59:06.325[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-17 14:59:07.693[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-17 14:59:08.163[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-17 14:59:08.647[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-17 15:05:12.671[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-17 15:05:13.917[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-17 15:05:14.484[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-17 15:05:15.000[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-17 15:05:15.653[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-17 15:05:17.296[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-17 15:05:17.732[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-17 15:05:18.191[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-17 15:11:58.864[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-17 15:11:59.977[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-17 15:12:00.395[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-17 15:12:00.830[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-17 15:12:01.339[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-17 15:12:02.212[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-17 15:12:02.622[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-17 15:12:03.067[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-17 15:13:44.059[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-17 15:13:45.220[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-17 15:13:45.696[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-17 15:13:46.083[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-17 15:13:46.636[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-17 15:13:47.579[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-17 15:13:47.997[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-17 15:13:48.387[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-17 15:22:49.608[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-17 15:22:50.741[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-17 15:22:51.119[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-17 15:22:51.532[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-17 15:22:52.049[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-17 15:22:53.272[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-17 15:22:53.690[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-17 15:22:54.189[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-17 15:22:54.648[main]LoggerLoad-User can click on Basic Operations in List
+[INFO ]2023-09-17 15:22:55.129[main]LoggerLoad-User can click on Try Here Link of Basic Operations in List
+[INFO ]2023-09-17 15:22:55.503[main]LoggerLoad-User can click on Application of Array
+[INFO ]2023-09-17 15:22:56.200[main]LoggerLoad-User can click on Try Here Link of Application of Array
+[INFO ]2023-09-17 15:22:56.658[main]LoggerLoad-User can click on Search the Array link in Practice Question
+[INFO ]2023-09-17 15:22:57.119[main]LoggerLoad-User can click on Max Consicutive Ones
+[INFO ]2023-09-17 15:22:57.529[main]LoggerLoad-User can click on FindNumbers with Even Number Of Digits
+[INFO ]2023-09-17 15:22:57.977[main]LoggerLoad-User can click on Squares of Sorted Array
+[INFO ]2023-09-17 21:42:19.102[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-17 21:42:20.063[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-17 21:42:20.419[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-17 21:42:20.721[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-17 21:42:21.233[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-17 21:42:22.311[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-17 21:42:22.662[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-17 21:42:23.002[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-17 21:42:23.355[main]LoggerLoad-User can click on Basic Operations in List
+[INFO ]2023-09-17 21:42:23.691[main]LoggerLoad-User can click on Try Here Link of Basic Operations in List
+[INFO ]2023-09-17 21:42:24.021[main]LoggerLoad-User can click on Application of Array
+[INFO ]2023-09-17 21:42:24.373[main]LoggerLoad-User can click on Try Here Link of Application of Array
+[INFO ]2023-09-17 21:42:24.672[main]LoggerLoad-User can click on Search the Array link in Practice Question
+[INFO ]2023-09-17 21:42:25.028[main]LoggerLoad-User can click on Max Consicutive Ones
+[INFO ]2023-09-17 21:42:25.335[main]LoggerLoad-User can click on FindNumbers with Even Number Of Digits
+[INFO ]2023-09-17 21:42:25.783[main]LoggerLoad-User can click on Squares of Sorted Array

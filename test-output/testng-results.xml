@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-17T21:42:18 EDT" name="Default suite" finished-at="2023-09-17T21:42:25 EDT" duration-ms="7348">
+    <groups>
+    </groups>
+    <test started-at="2023-09-17T21:42:18 EDT" name="Default test" finished-at="2023-09-17T21:42:25 EDT" duration-ms="7348">
+      <class name="module1.Array">
+        <test-method signature="openwebsite()[pri:1, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:18 EDT" name="openwebsite" finished-at="2023-09-17T21:42:19 EDT" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openwebsite -->
+        <test-method signature="Login()[pri:2, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:19 EDT" name="Login" finished-at="2023-09-17T21:42:20 EDT" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="clickGetStarted()[pri:4, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:20 EDT" name="clickGetStarted" finished-at="2023-09-17T21:42:20 EDT" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStarted -->
+        <test-method signature="clickdrpdownArray()[pri:5, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:20 EDT" name="clickdrpdownArray" finished-at="2023-09-17T21:42:20 EDT" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickdrpdownArray -->
+        <test-method signature="ArrayPage()[pri:6, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:20 EDT" name="ArrayPage" finished-at="2023-09-17T21:42:21 EDT" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArrayPage -->
+        <test-method signature="TryHereLinkArrayInPython()[pri:7, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:21 EDT" name="TryHereLinkArrayInPython" finished-at="2023-09-17T21:42:22 EDT" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereLinkArrayInPython -->
+        <test-method signature="ArraysUsingListClick()[pri:8, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:22 EDT" name="ArraysUsingListClick" finished-at="2023-09-17T21:42:22 EDT" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArraysUsingListClick -->
+        <test-method signature="TryHereArraysUsingList()[pri:9, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:22 EDT" name="TryHereArraysUsingList" finished-at="2023-09-17T21:42:23 EDT" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereArraysUsingList -->
+        <test-method signature="BasicOperationListClick()[pri:10, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:23 EDT" name="BasicOperationListClick" finished-at="2023-09-17T21:42:23 EDT" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicOperationListClick -->
+        <test-method signature="TryHereBasicOperationList()[pri:11, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:23 EDT" name="TryHereBasicOperationList" finished-at="2023-09-17T21:42:23 EDT" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereBasicOperationList -->
+        <test-method signature="ApplicationOfArrayClick()[pri:12, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:23 EDT" name="ApplicationOfArrayClick" finished-at="2023-09-17T21:42:24 EDT" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationOfArrayClick -->
+        <test-method signature="TryHereApplicationOfArray()[pri:13, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:24 EDT" name="TryHereApplicationOfArray" finished-at="2023-09-17T21:42:24 EDT" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereApplicationOfArray -->
+        <test-method signature="SearchTheArray()[pri:15, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:24 EDT" name="SearchTheArray" finished-at="2023-09-17T21:42:24 EDT" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTheArray -->
+        <test-method signature="MaxConsecutiveOnes()[pri:16, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:24 EDT" name="MaxConsecutiveOnes" finished-at="2023-09-17T21:42:25 EDT" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaxConsecutiveOnes -->
+        <test-method signature="FindNumberWithEvenNumber()[pri:17, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:25 EDT" name="FindNumberWithEvenNumber" finished-at="2023-09-17T21:42:25 EDT" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindNumberWithEvenNumber -->
+        <test-method signature="SquaresOfSortedArray()[pri:18, instance:module1.Array@19650aa6]" started-at="2023-09-17T21:42:25 EDT" name="SquaresOfSortedArray" finished-at="2023-09-17T21:42:25 EDT" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SquaresOfSortedArray -->
+      </class> <!-- module1.Array -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
