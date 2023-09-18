@@ -202,4 +202,8 @@ public class Array {
 		SquareOfSortedClick.click();
 		LoggerLoad.info("User can click on Squares of Sorted Array");
 	}
+	@Test(priority=19)
+	public void closeBrowser() {
+		driver.close();
+	}
 }
