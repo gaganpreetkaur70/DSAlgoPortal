@@ -7,6 +7,10 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import dsutilities.LoggerLoad;
@@ -15,7 +19,7 @@ public class Array {
 	
 	static WebDriver driver=new ChromeDriver();
 	
-	@Test(priority=1)
+	@BeforeClass
 	public void openwebsite() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\reshm\\eclipse-workspace\\DSAlgoAppTestNG\\src\\test\\resources\\driver\\chromedriver.exe");
 	    
@@ -25,7 +29,7 @@ public class Array {
 	    driver.get(url);
 	    LoggerLoad.info("Website is opened successfully on chrome browser");
 	}
-	@Test(priority=2)
+	@BeforeTest
 	public void Login() {
 		String url="https://dsportalapp.herokuapp.com/register";
 		driver.get(url);
@@ -42,7 +46,7 @@ public class Array {
 		LoggerLoad.info("User logged in to the website successfully");
 		
 	}
-	@Test(priority=4)
+	@BeforeMethod
 	public void clickGetStarted() {
 		String url="https://dsportalapp.herokuapp.com/home";
 		driver.get(url);
@@ -54,7 +58,7 @@ public class Array {
 		
 	}
 	
-	@Test(priority=5)
+	@Test
 	public void clickdrpdownArray() {
 		String url="https://dsportalapp.herokuapp.com/home";
 		driver.get(url);
@@ -66,7 +70,7 @@ public class Array {
 		clickArray.click();	
 		LoggerLoad.info("User can select option:Array in dropdown list");
 	}
-	@Test(priority=6)
+	@Test(dependsOnMethods="clickdrpdownArray")
 	public void ArrayPage() {
 		String url="https://dsportalapp.herokuapp.com/array/";
 		driver.get(url);
@@ -76,19 +80,18 @@ public class Array {
 		ArrayInPythonLink.click();
 		LoggerLoad.info("User can select the link: Array in Python");
 	}
-	@Test(priority=7)
-    public void TryHereLinkArrayInPython() throws InterruptedException {
+	@Test(dependsOnMethods="ArrayPage")
+    public void TryHereLinkArrayInPython(){
 		String url="https://dsportalapp.herokuapp.com/array/arrays-in-python/";
 		driver.get(url);
 		JavascriptExecutor js1=(JavascriptExecutor)driver;
 		js1.executeScript("window.scrollTo(0,document.body.scrollHeight)");
-		//Thread.sleep(4000);
 		WebElement tryherelink=driver.findElement(By.partialLinkText("here"));
 		tryherelink.click();
 		LoggerLoad.info("User can click on Try Here Link of Arrays in Python");
     	
     }
-	@Test(priority=8)
+	@Test
 	public void ArraysUsingListClick() {
 		String url="https://dsportalapp.herokuapp.com/array/";
 		driver.get(url);
@@ -97,7 +100,7 @@ public class Array {
 		arrayusinglistlink.click();
 		LoggerLoad.info("User can click on: Arrays Using List");
 	}
-	@Test(priority=9)
+	@Test(dependsOnMethods="ArraysUsingListClick")
 	public void TryHereArraysUsingList() {
 		String url="https://dsportalapp.herokuapp.com/array/arrays-using-list/";
 		driver.get(url);
@@ -118,7 +121,7 @@ public class Array {
 		LoggerLoad.info("User can click on Basic Operations in List");
 		
 	}
-	@Test(priority=11)
+	@Test(dependsOnMethods="BasicOperationListClick")
 	public void TryHereBasicOperationList() {
 		String url="https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/";
 		driver.get(url);
@@ -140,7 +143,7 @@ public class Array {
 		LoggerLoad.info("User can click on Application of Array");
 	}
 	
-	@Test(priority=13)
+	@Test(dependsOnMethods="ApplicationOfArrayClick")
 	public void TryHereApplicationOfArray() {
 		String url="https://dsportalapp.herokuapp.com/array/applications-of-array/";
 		driver.get(url);
@@ -202,7 +205,7 @@ public class Array {
 		SquareOfSortedClick.click();
 		LoggerLoad.info("User can click on Squares of Sorted Array");
 	}
-	@Test(priority=19)
+	@AfterClass
 	public void closeBrowser() {
 		driver.close();
 	}
