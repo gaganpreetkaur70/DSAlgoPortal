@@ -1,6 +1,7 @@
 package dstestcases;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import dsutilities.LoggerLoad;
 
 public class LoggerTest {

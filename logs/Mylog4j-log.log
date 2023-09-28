@@ -635,3 +635,78 @@
 [INFO ]2023-09-25 15:38:53.084[main]LoggerLoad-User logged in to the website successfully
 [INFO ]2023-09-25 15:38:53.423[main]LoggerLoad-Website is opened successfully on chrome browser
 [INFO ]2023-09-25 15:38:53.741[main]LoggerLoad-User can click the link
+[INFO ]2023-09-27 15:34:32.517[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-27 15:34:32.756[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-09-27 15:34:32.756[main]LoggerLoad-C:\Users\reshm\eclipse-workspace\DSAlgoAppTestNG/src/test/resources/UserData/User.xlsx
+[INFO ]2023-09-27 15:48:58.346[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-27 15:48:58.806[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-27 15:48:59.165[main]LoggerLoad-User can click the link
+[INFO ]2023-09-27 15:50:21.284[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-27 15:50:21.714[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-27 15:50:22.161[main]LoggerLoad-User can click the link
+[INFO ]2023-09-27 15:50:22.584[main]LoggerLoad-User can click the link
+[INFO ]2023-09-27 15:52:03.551[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-27 15:52:03.920[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-27 15:52:04.253[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-27 15:52:04.623[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-27 15:52:04.976[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-27 15:52:05.969[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-27 15:52:06.208[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-27 15:52:06.492[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-27 15:52:06.760[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-27 15:52:07.217[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-27 15:52:07.497[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-27 15:52:07.925[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-27 15:52:08.187[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-27 15:52:08.513[main]LoggerLoad-User can click on Basic Operations in List
+[INFO ]2023-09-27 15:52:08.758[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-27 15:52:09.173[main]LoggerLoad-User can click on Try Here Link of Basic Operations in List
+[INFO ]2023-09-27 15:52:09.479[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-27 15:52:09.818[main]LoggerLoad-User can click on Application of Array
+[INFO ]2023-09-27 15:52:10.099[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-27 15:52:10.497[main]LoggerLoad-User can click on Try Here Link of Application of Array
+[INFO ]2023-09-27 15:52:10.774[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-27 15:52:11.177[main]LoggerLoad-User can click on Search the Array link in Practice Question
+[INFO ]2023-09-27 15:52:11.495[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-27 15:52:11.834[main]LoggerLoad-User can click on Max Consicutive Ones
+[INFO ]2023-09-27 15:52:12.114[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-27 15:52:12.475[main]LoggerLoad-User can click on FindNumbers with Even Number Of Digits
+[INFO ]2023-09-27 15:52:12.777[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-27 15:52:13.110[main]LoggerLoad-User can click on Squares of Sorted Array
+[INFO ]2023-09-28 13:46:47.446[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-28 13:46:47.839[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-28 13:46:48.300[main]LoggerLoad-User can click the link
+[INFO ]2023-09-28 13:47:12.375[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-28 13:47:12.819[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-28 13:49:45.195[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-28 13:49:45.696[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-28 13:49:46.200[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-28 13:49:46.994[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-09-28 13:49:47.560[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-28 13:49:48.708[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-09-28 13:49:49.078[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-28 13:49:49.524[main]LoggerLoad-User can select option:Array in dropdown list
+[INFO ]2023-09-28 13:49:49.838[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-28 13:49:50.361[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-09-28 13:49:50.728[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-28 13:49:51.228[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-09-28 13:49:51.583[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-28 13:49:52.031[main]LoggerLoad-User can click on Basic Operations in List
+[INFO ]2023-09-28 13:49:52.416[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-28 13:49:52.891[main]LoggerLoad-User can click on Try Here Link of Basic Operations in List
+[INFO ]2023-09-28 13:49:53.289[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-28 13:49:53.811[main]LoggerLoad-User can click on Application of Array
+[INFO ]2023-09-28 13:49:54.168[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-28 13:49:54.607[main]LoggerLoad-User can click on Try Here Link of Application of Array
+[INFO ]2023-09-28 13:49:54.993[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-28 13:49:55.433[main]LoggerLoad-User can click on Search the Array link in Practice Question
+[INFO ]2023-09-28 13:49:55.841[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-28 13:49:56.280[main]LoggerLoad-User can click on Max Consicutive Ones
+[INFO ]2023-09-28 13:49:56.646[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-28 13:49:57.053[main]LoggerLoad-User can click on FindNumbers with Even Number Of Digits
+[INFO ]2023-09-28 13:49:57.452[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-09-28 13:49:57.914[main]LoggerLoad-User can click on Squares of Sorted Array
+[INFO ]2023-09-28 13:50:15.256[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-28 13:50:15.701[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-09-28 13:58:22.928[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-09-28 13:58:23.335[main]LoggerLoad-Website is opened successfully on chrome browser

@@ -1,129 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-26T23:01:07 GMT-04:00" name="Default suite" finished-at="2023-09-26T23:01:33 GMT-04:00" duration-ms="25792">
+  <suite started-at="2023-09-28T13:58:21 EDT" name="Default suite" finished-at="2023-09-28T13:58:23 EDT" duration-ms="2032">
     <groups>
     </groups>
-    <test started-at="2023-09-26T23:01:07 GMT-04:00" name="Default test" finished-at="2023-09-26T23:01:33 GMT-04:00" duration-ms="25792">
-      <class name="module1.Array">
-        <test-method is-config="true" signature="Login()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:07 GMT-04:00" name="Login" finished-at="2023-09-26T23:01:13 GMT-04:00" duration-ms="5793" status="PASS">
+    <test started-at="2023-09-28T13:58:21 EDT" name="Default test" finished-at="2023-09-28T13:58:23 EDT" duration-ms="2032">
+      <class name="module1.LinkedList">
+        <test-method is-config="true" signature="Login()[pri:0, instance:module1.LinkedList@2dd0f797]" started-at="2023-09-28T13:58:21 EDT" name="Login" finished-at="2023-09-28T13:58:22 EDT" duration-ms="1317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="openwebsite()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:13 GMT-04:00" name="openwebsite" finished-at="2023-09-26T23:01:13 GMT-04:00" duration-ms="505" status="PASS">
+        <test-method signature="openwebsite()[pri:1, instance:module1.LinkedList@2dd0f797]" started-at="2023-09-28T13:58:22 EDT" name="openwebsite" finished-at="2023-09-28T13:58:23 EDT" duration-ms="535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openwebsite -->
-        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:13 GMT-04:00" name="clickGetStarted" finished-at="2023-09-26T23:01:15 GMT-04:00" duration-ms="1574" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:module1.LinkedList@2dd0f797]" started-at="2023-09-28T13:58:23 EDT" name="CloseBrowser" finished-at="2023-09-28T13:58:23 EDT" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickGetStarted -->
-        <test-method signature="ArraysUsingListClick()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:15 GMT-04:00" name="ArraysUsingListClick" finished-at="2023-09-26T23:01:16 GMT-04:00" duration-ms="740" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ArraysUsingListClick -->
-        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:16 GMT-04:00" name="clickGetStarted" finished-at="2023-09-26T23:01:16 GMT-04:00" duration-ms="769" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickGetStarted -->
-        <test-method signature="TryHereArraysUsingList()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:16 GMT-04:00" name="TryHereArraysUsingList" finished-at="2023-09-26T23:01:18 GMT-04:00" depends-on-methods="module1.Array.ArraysUsingListClick" duration-ms="1755" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TryHereArraysUsingList -->
-        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:18 GMT-04:00" name="clickGetStarted" finished-at="2023-09-26T23:01:19 GMT-04:00" duration-ms="566" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickGetStarted -->
-        <test-method signature="clickdrpdownArray()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:19 GMT-04:00" name="clickdrpdownArray" finished-at="2023-09-26T23:01:19 GMT-04:00" duration-ms="599" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickdrpdownArray -->
-        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:19 GMT-04:00" name="clickGetStarted" finished-at="2023-09-26T23:01:20 GMT-04:00" duration-ms="680" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickGetStarted -->
-        <test-method signature="ArrayPage()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:20 GMT-04:00" name="ArrayPage" finished-at="2023-09-26T23:01:21 GMT-04:00" depends-on-methods="module1.Array.clickdrpdownArray" duration-ms="1236" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ArrayPage -->
-        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:21 GMT-04:00" name="clickGetStarted" finished-at="2023-09-26T23:01:22 GMT-04:00" duration-ms="478" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickGetStarted -->
-        <test-method signature="TryHereLinkArrayInPython()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:22 GMT-04:00" name="TryHereLinkArrayInPython" finished-at="2023-09-26T23:01:22 GMT-04:00" depends-on-methods="module1.Array.ArrayPage" duration-ms="631" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TryHereLinkArrayInPython -->
-        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:22 GMT-04:00" name="clickGetStarted" finished-at="2023-09-26T23:01:23 GMT-04:00" duration-ms="537" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickGetStarted -->
-        <test-method signature="BasicOperationListClick()[pri:10, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:23 GMT-04:00" name="BasicOperationListClick" finished-at="2023-09-26T23:01:23 GMT-04:00" duration-ms="482" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BasicOperationListClick -->
-        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:23 GMT-04:00" name="clickGetStarted" finished-at="2023-09-26T23:01:24 GMT-04:00" duration-ms="465" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickGetStarted -->
-        <test-method signature="TryHereBasicOperationList()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:24 GMT-04:00" name="TryHereBasicOperationList" finished-at="2023-09-26T23:01:24 GMT-04:00" depends-on-methods="module1.Array.BasicOperationListClick" duration-ms="633" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TryHereBasicOperationList -->
-        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:24 GMT-04:00" name="clickGetStarted" finished-at="2023-09-26T23:01:25 GMT-04:00" duration-ms="527" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickGetStarted -->
-        <test-method signature="ApplicationOfArrayClick()[pri:12, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:25 GMT-04:00" name="ApplicationOfArrayClick" finished-at="2023-09-26T23:01:26 GMT-04:00" duration-ms="619" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ApplicationOfArrayClick -->
-        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:26 GMT-04:00" name="clickGetStarted" finished-at="2023-09-26T23:01:26 GMT-04:00" duration-ms="581" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickGetStarted -->
-        <test-method signature="TryHereApplicationOfArray()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:26 GMT-04:00" name="TryHereApplicationOfArray" finished-at="2023-09-26T23:01:27 GMT-04:00" depends-on-methods="module1.Array.ApplicationOfArrayClick" duration-ms="571" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TryHereApplicationOfArray -->
-        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:27 GMT-04:00" name="clickGetStarted" finished-at="2023-09-26T23:01:27 GMT-04:00" duration-ms="521" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickGetStarted -->
-        <test-method signature="SearchTheArray()[pri:15, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:27 GMT-04:00" name="SearchTheArray" finished-at="2023-09-26T23:01:28 GMT-04:00" duration-ms="932" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchTheArray -->
-        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:28 GMT-04:00" name="clickGetStarted" finished-at="2023-09-26T23:01:29 GMT-04:00" duration-ms="749" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickGetStarted -->
-        <test-method signature="MaxConsecutiveOnes()[pri:16, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:29 GMT-04:00" name="MaxConsecutiveOnes" finished-at="2023-09-26T23:01:30 GMT-04:00" duration-ms="652" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MaxConsecutiveOnes -->
-        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:30 GMT-04:00" name="clickGetStarted" finished-at="2023-09-26T23:01:30 GMT-04:00" duration-ms="502" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickGetStarted -->
-        <test-method signature="FindNumberWithEvenNumber()[pri:17, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:30 GMT-04:00" name="FindNumberWithEvenNumber" finished-at="2023-09-26T23:01:31 GMT-04:00" duration-ms="769" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FindNumberWithEvenNumber -->
-        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:31 GMT-04:00" name="clickGetStarted" finished-at="2023-09-26T23:01:32 GMT-04:00" duration-ms="590" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickGetStarted -->
-        <test-method signature="SquaresOfSortedArray()[pri:18, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:32 GMT-04:00" name="SquaresOfSortedArray" finished-at="2023-09-26T23:01:32 GMT-04:00" duration-ms="699" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SquaresOfSortedArray -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:module1.Array@1416a80a]" started-at="2023-09-26T23:01:32 GMT-04:00" name="closeBrowser" finished-at="2023-09-26T23:01:33 GMT-04:00" duration-ms="397" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- module1.Array -->
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- module1.LinkedList -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
