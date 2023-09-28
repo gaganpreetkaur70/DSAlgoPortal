@@ -1,5 +1,8 @@
 package module1;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
 import java.time.Duration;
 
 import org.openqa.selenium.By;

@@ -1,5 +1,8 @@
 package module1;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -7,16 +10,12 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
-
 import dsutilities.LoggerLoad;
 
 public class LinkedList {
 static WebDriver driver=new ChromeDriver();
-	@BeforeClass
+	@Test(priority=1)
 	public void openwebsite() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\reshm\\eclipse-workspace\\DSAlgoAppTestNG\\src\\test\\resources\\driver\\chromedriver.exe");
 	    
@@ -25,6 +24,8 @@ static WebDriver driver=new ChromeDriver();
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	    driver.get(url);
 	    LoggerLoad.info("Website is opened successfully on chrome browser");
+	    WebElement GetStarted=driver.findElement(By.xpath("//button[@class='btn']"));
+	    GetStarted.click();
 	}
 	
 	@BeforeTest
@@ -43,7 +44,7 @@ static WebDriver driver=new ChromeDriver();
 		LoginButton.click();
 		LoggerLoad.info("User logged in to the website successfully");	
 	}
-	@Test
+	@Test(dependsOnMethods="Login")
 	public void ClickOnLinkedList()
 	{
 		String url="https://dsportalapp.herokuapp.com/home";
