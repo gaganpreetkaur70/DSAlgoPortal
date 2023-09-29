@@ -15,24 +15,24 @@ import dsutilities.LoggerLoad;
 
 public class LinkedList {
 static WebDriver driver=new ChromeDriver();
-	@Test(priority=1)
-	public void openwebsite() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\reshm\\eclipse-workspace\\DSAlgoAppTestNG\\src\\test\\resources\\driver\\chromedriver.exe");
-	    
-	    String url="https://dsportalapp.herokuapp.com/";
-	    driver.manage().window().maximize();;
-	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	    driver.get(url);
-	    LoggerLoad.info("Website is opened successfully on chrome browser");
-	    WebElement GetStarted=driver.findElement(By.xpath("//button[@class='btn']"));
-	    GetStarted.click();
-	}
+	
+@BeforeClass	
+public void openwebsitedsportal() {
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\reshm\\eclipse-workspace\\DSAlgoAppTestNG\\src\\test\\resources\\driver\\chromedriver.exe");
+    
+    String url="https://dsportalapp.herokuapp.com/";
+    driver.manage().window().maximize();
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    driver.get(url);
+    LoggerLoad.info("Website is opened successfully on chrome browser");
+}
 	
 	@BeforeTest
 	public void Login() {
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\reshm\\eclipse-workspace\\DSAlgoAppTestNG\\src\\test\\resources\\driver\\chromedriver.exe");
 		String url="https://dsportalapp.herokuapp.com/register";
 		driver.get(url);
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		WebElement SignIn= driver.findElement(By.partialLinkText("Sign"));
 		SignIn.click();

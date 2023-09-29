@@ -27,7 +27,7 @@ public class Array {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\reshm\\eclipse-workspace\\DSAlgoAppTestNG\\src\\test\\resources\\driver\\chromedriver.exe");
 	    
 	    String url="https://dsportalapp.herokuapp.com/";
-	    driver.manage().window().maximize();;
+	    driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	    driver.get(url);
 	    LoggerLoad.info("Website is opened successfully on chrome browser");
@@ -94,6 +94,17 @@ public class Array {
 		LoggerLoad.info("User can click on Try Here Link of Arrays in Python");
     	
     }
+	/*@Test(dependsOnMethods="TryHereLinkArrayInPython")
+	/*public void TextboxToEnterTheCode_ArrayInPython() {
+		String url="https://dsportalapp.herokuapp.com/tryEditor";
+		driver.get(url);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		WebElement txtforruncode=driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
+		txtforruncode.sendKeys("print(Hello)");
+		WebElement btnRun=driver.findElement(By.xpath("//button[@type='button']"));
+		btnRun.click();
+		
+	}*/
 	@Test
 	public void ArraysUsingListClick() {
 		String url="https://dsportalapp.herokuapp.com/array/";
@@ -114,6 +125,18 @@ public class Array {
 		tryherelink.click();
 		LoggerLoad.info("User can click on Try Here Link of Arrays Using List");		
 	}
+	
+	/*@Test(dependsOnMethods="TryHereArraysUsingList")
+	/*public void TextboxToEnterTheCode_ArraysUsingList() {
+		String url="https://dsportalapp.herokuapp.com/tryEditor";
+		driver.get(url);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		WebElement txtforruncode=driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
+		txtforruncode.sendKeys("print(Hello)");
+		WebElement btnRun=driver.findElement(By.xpath("//button[@type='button']"));
+		btnRun.click();
+		
+	}*/
 	@Test(priority=10)
 	public void BasicOperationListClick() {
 		String url="https://dsportalapp.herokuapp.com/array/";
@@ -136,6 +159,7 @@ public class Array {
 		LoggerLoad.info("User can click on Try Here Link of Basic Operations in List");
 		
 	}
+	
 	@Test(priority=12)
 	public void ApplicationOfArrayClick() {
 		String url="https://dsportalapp.herokuapp.com/array/";
@@ -158,15 +182,15 @@ public class Array {
 		LoggerLoad.info("User can click on Try Here Link of Application of Array");
 	}
 	//Testcase no.41: Bellow test case precondition webpage is wrong. "Practice Question" link is not present in "Array Home page"
-	/*@Test(priority=14)
+	@Test(priority=14)
 	public void PracticeQuestions() {
-		String url="https://dsportalapp.herokuapp.com/array/";
+		String url="https://dsportalapp.herokuapp.com/array/applications-of-array/";
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		WebElement PracticeQuestionsLink=driver.findElement(By.partialLinkText("Practice"));
 		PracticeQuestionsLink.click();
 		
-	}*/
+	}
 	
 	@Test(priority=15)
 	public void SearchTheArray(){
