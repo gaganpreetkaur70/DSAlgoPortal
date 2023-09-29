@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
@@ -97,3 +98,134 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-28T20:56:48 CDT" name="Default suite" finished-at="2023-09-28T20:57:09 CDT" duration-ms="20417">
+    <groups>
+    </groups>
+    <test started-at="2023-09-28T20:56:48 CDT" name="Default test" finished-at="2023-09-28T20:57:09 CDT" duration-ms="20417">
+      <class name="module1.Array">
+        <test-method is-config="true" signature="Login()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:56:48 CDT" name="Login" finished-at="2023-09-28T20:56:51 CDT" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="openwebsite()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:56:51 CDT" name="openwebsite" finished-at="2023-09-28T20:56:51 CDT" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openwebsite -->
+        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:56:51 CDT" name="clickGetStarted" finished-at="2023-09-28T20:56:52 CDT" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStarted -->
+        <test-method signature="ArraysUsingListClick()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:56:52 CDT" name="ArraysUsingListClick" finished-at="2023-09-28T20:56:53 CDT" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArraysUsingListClick -->
+        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:56:53 CDT" name="clickGetStarted" finished-at="2023-09-28T20:56:53 CDT" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStarted -->
+        <test-method signature="TryHereArraysUsingList()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:56:53 CDT" name="TryHereArraysUsingList" finished-at="2023-09-28T20:56:54 CDT" depends-on-methods="module1.Array.ArraysUsingListClick" duration-ms="1047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereArraysUsingList -->
+        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:56:54 CDT" name="clickGetStarted" finished-at="2023-09-28T20:56:55 CDT" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStarted -->
+        <test-method signature="clickdrpdownArray()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:56:55 CDT" name="clickdrpdownArray" finished-at="2023-09-28T20:56:56 CDT" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickdrpdownArray -->
+        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:56:56 CDT" name="clickGetStarted" finished-at="2023-09-28T20:56:56 CDT" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStarted -->
+        <test-method signature="ArrayPage()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:56:56 CDT" name="ArrayPage" finished-at="2023-09-28T20:56:57 CDT" depends-on-methods="module1.Array.clickdrpdownArray" duration-ms="1104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArrayPage -->
+        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:56:57 CDT" name="clickGetStarted" finished-at="2023-09-28T20:56:58 CDT" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStarted -->
+        <test-method signature="TryHereLinkArrayInPython()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:56:58 CDT" name="TryHereLinkArrayInPython" finished-at="2023-09-28T20:56:59 CDT" depends-on-methods="module1.Array.ArrayPage" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereLinkArrayInPython -->
+        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:56:59 CDT" name="clickGetStarted" finished-at="2023-09-28T20:56:59 CDT" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStarted -->
+        <test-method signature="BasicOperationListClick()[pri:10, instance:module1.Array@77774571]" started-at="2023-09-28T20:56:59 CDT" name="BasicOperationListClick" finished-at="2023-09-28T20:57:00 CDT" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicOperationListClick -->
+        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:57:00 CDT" name="clickGetStarted" finished-at="2023-09-28T20:57:00 CDT" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStarted -->
+        <test-method signature="TryHereBasicOperationList()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:57:00 CDT" name="TryHereBasicOperationList" finished-at="2023-09-28T20:57:01 CDT" depends-on-methods="module1.Array.BasicOperationListClick" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereBasicOperationList -->
+        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:57:01 CDT" name="clickGetStarted" finished-at="2023-09-28T20:57:02 CDT" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStarted -->
+        <test-method signature="ApplicationOfArrayClick()[pri:12, instance:module1.Array@77774571]" started-at="2023-09-28T20:57:02 CDT" name="ApplicationOfArrayClick" finished-at="2023-09-28T20:57:02 CDT" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationOfArrayClick -->
+        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:57:02 CDT" name="clickGetStarted" finished-at="2023-09-28T20:57:03 CDT" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStarted -->
+        <test-method signature="TryHereApplicationOfArray()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:57:03 CDT" name="TryHereApplicationOfArray" finished-at="2023-09-28T20:57:03 CDT" depends-on-methods="module1.Array.ApplicationOfArrayClick" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereApplicationOfArray -->
+        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:57:03 CDT" name="clickGetStarted" finished-at="2023-09-28T20:57:04 CDT" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStarted -->
+        <test-method signature="SearchTheArray()[pri:15, instance:module1.Array@77774571]" started-at="2023-09-28T20:57:04 CDT" name="SearchTheArray" finished-at="2023-09-28T20:57:05 CDT" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTheArray -->
+        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:57:05 CDT" name="clickGetStarted" finished-at="2023-09-28T20:57:05 CDT" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStarted -->
+        <test-method signature="MaxConsecutiveOnes()[pri:16, instance:module1.Array@77774571]" started-at="2023-09-28T20:57:05 CDT" name="MaxConsecutiveOnes" finished-at="2023-09-28T20:57:06 CDT" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaxConsecutiveOnes -->
+        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:57:06 CDT" name="clickGetStarted" finished-at="2023-09-28T20:57:07 CDT" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStarted -->
+        <test-method signature="FindNumberWithEvenNumber()[pri:17, instance:module1.Array@77774571]" started-at="2023-09-28T20:57:07 CDT" name="FindNumberWithEvenNumber" finished-at="2023-09-28T20:57:07 CDT" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindNumberWithEvenNumber -->
+        <test-method is-config="true" signature="clickGetStarted()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:57:07 CDT" name="clickGetStarted" finished-at="2023-09-28T20:57:08 CDT" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStarted -->
+        <test-method signature="SquaresOfSortedArray()[pri:18, instance:module1.Array@77774571]" started-at="2023-09-28T20:57:08 CDT" name="SquaresOfSortedArray" finished-at="2023-09-28T20:57:09 CDT" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SquaresOfSortedArray -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:module1.Array@77774571]" started-at="2023-09-28T20:57:09 CDT" name="closeBrowser" finished-at="2023-09-28T20:57:09 CDT" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- module1.Array -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
+>>>>>>> branch 'master' of https://github.com/gaganpreetkaur70/DSAlgoPortal.git

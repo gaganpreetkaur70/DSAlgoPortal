@@ -1,0 +1,1 @@
+{"uuid":"68c611c7-623b-4b81-bed5-14cf7e880905","name":"module1.LinkedList","children":["8094c941-acc5-4487-a1e3-4187c82b746f"],"befores":[],"afters":[{"name":"CloseBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1695923232882,"stop":1695923232989}],"start":1695923230966,"stop":1695923233001}
