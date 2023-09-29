@@ -3,18 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="module1.LinkedList">
+      <class name="module1.Array">
         <methods>
-          <include name="TryHereLinkedList"/>
-          <include name="Login"/>
-          <include name="ClickOnLinkedList"/>
-          <include name="RunButton"/>
           <include name="openwebsite"/>
-          <include name="clickonIntroduction"/>
-          <include name="TextboxToEnterTheCode"/>
-          <include name="CloseBrowser"/>
+          <include name="PracticeQuestions"/>
+          <include name="clickGetStarted"/>
+          <include name="closeBrowser"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- module1.LinkedList -->
+      </class> <!-- module1.Array -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
