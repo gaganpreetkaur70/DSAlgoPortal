@@ -3,6 +3,8 @@ package module1;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -16,7 +18,7 @@ import dsutilities.LoggerLoad;
 public class LinkedList {
 static WebDriver driver=new ChromeDriver();
 	
-@BeforeClass	
+@Test
 public void openwebsitedsportal() {
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\reshm\\eclipse-workspace\\DSAlgoAppTestNG\\src\\test\\resources\\driver\\chromedriver.exe");
     
