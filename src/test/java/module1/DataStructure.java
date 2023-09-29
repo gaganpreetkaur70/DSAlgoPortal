@@ -89,10 +89,26 @@ public void openTimeComplexity() {
 }
 
 
-@Test (priority = 4)
+@Test (priority = 5)
 public void openPracticeQuestion() {
 	
-	 driver.findElement(By.xpath("//div[2]/div/div/div/a[@class='list-group-item']")).click();
+	 driver.findElement(By.xpath("//div[2]/div/div/div/a[@class='list-group-item list-group-item-light text-info']")).click();
+	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+	 driver.navigate().back();
 	 LoggerLoad.info("Practice Question page opened");
+	 
+}
+
+@Test (priority = 6)
+public void openTryHere() {
+	
+	 driver.findElement(By.xpath("//div[2]/div/div/a[@class='btn btn-info']")).click();
+	 LoggerLoad.info("Try Here page opened");
+	 
+}
+
+@Test (priority = 7)
+public void closeBrowser() {
+	 driver.close();
 }
 }
