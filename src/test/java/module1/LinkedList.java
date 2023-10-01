@@ -69,7 +69,7 @@ public void openwebsitedsportal() {
 		LoggerLoad.info("User can click the link");
 	}
 	
-	@Test(dependsOnMethods="clickonIntroduction")
+	@Test(dependsOnMethods="clickonIntroduction") 
 	public void TryHereLinkedList() {
 		String url="https://dsportalapp.herokuapp.com/linked-list/introduction/";
 		driver.get(url);
