@@ -12,6 +12,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import dsutilities.LoggerLoad;
+import net.bytebuddy.implementation.bytecode.ShiftRight;
 
 public class PracticeQuestion {
 	static WebDriver driver=new ChromeDriver();
@@ -90,18 +91,19 @@ public class PracticeQuestion {
 		LoggerLoad.info("User can click on Search the Array link in Practice Question");
 	}
 	@Test(dependsOnMethods="SearchTheArray")
-	public void Question1() throws InterruptedException {
+	public void Question1_1() throws InterruptedException {
 		String url="https://dsportalapp.herokuapp.com/question/1";
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		WebElement inputdata=driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea)"));
-		
-		Thread.sleep(3000);
-		Actions select = new Actions(driver);
-		select.doubleClick(inputdata).build().perform();
-		inputdata.clear();
+		WebElement inputdata=driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
+		inputdata.sendKeys(org.openqa.selenium.Keys.CONTROL,"a");
+		inputdata.sendKeys(org.openqa.selenium.Keys.DELETE);
+		//inputdata.clear();
 		inputdata.sendKeys("print(\"Hello\")");
+		WebElement RunButton=driver.findElement(By.xpath("//button[@type='button']"));
+		RunButton.click();
 	}
+	
 	@Test(priority=4)
 	public void MaxConsecutiveOnes() {
 		String url="https://dsportalapp.herokuapp.com/array/practice";
@@ -110,6 +112,19 @@ public class PracticeQuestion {
 		WebElement MaxConsecutiveLink=driver.findElement(By.partialLinkText("Max"));
 		MaxConsecutiveLink.click();
 		LoggerLoad.info("User can click on Max Consicutive Ones");
+	}
+	@Test(dependsOnMethods="MaxConsecutiveOnes")
+	public void Question1_2() throws InterruptedException {
+		String url="https://dsportalapp.herokuapp.com/question/1";
+		driver.get(url);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		WebElement inputdata=driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
+		inputdata.sendKeys(org.openqa.selenium.Keys.CONTROL,"a");
+		inputdata.sendKeys(org.openqa.selenium.Keys.DELETE);
+		//inputdata.clear();
+		inputdata.sendKeys("print(\"Hello\")");
+		WebElement RunButton=driver.findElement(By.xpath("//button[@type='button']"));
+		RunButton.click();
 	}
 	@Test(priority=5)
 	public void FindNumberWithEvenNumber() {
@@ -120,6 +135,19 @@ public class PracticeQuestion {
 		FindNumber.click();
 		LoggerLoad.info("User can click on FindNumbers with Even Number Of Digits");
 	}
+	@Test(dependsOnMethods="FindNumberWithEvenNumber")
+	public void Question1_3() throws InterruptedException {
+		String url="https://dsportalapp.herokuapp.com/question/1";
+		driver.get(url);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		WebElement inputdata=driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
+		inputdata.sendKeys(org.openqa.selenium.Keys.CONTROL,"a");
+		inputdata.sendKeys(org.openqa.selenium.Keys.DELETE);
+		//inputdata.clear();
+		inputdata.sendKeys("print(\"Hello\")");
+		WebElement RunButton=driver.findElement(By.xpath("//button[@type='button']"));
+		RunButton.click();
+	}
 	@Test(priority=6)
 	public void SquaresOfSortedArray() {
 		String url="https://dsportalapp.herokuapp.com/array/practice";
@@ -129,6 +157,17 @@ public class PracticeQuestion {
 		SquareOfSortedClick.click();
 		LoggerLoad.info("User can click on Squares of Sorted Array");
 	}
-	
-
+	@Test(dependsOnMethods="SquaresOfSortedArray")
+	public void Question1_4() throws InterruptedException {
+		String url="https://dsportalapp.herokuapp.com/question/1";
+		driver.get(url);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		WebElement inputdata=driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
+		inputdata.sendKeys(org.openqa.selenium.Keys.CONTROL,"a");
+		inputdata.sendKeys(org.openqa.selenium.Keys.DELETE);
+		//inputdata.clear();
+		inputdata.sendKeys("print(\"Hello\")");
+		WebElement RunButton=driver.findElement(By.xpath("//button[@type='button']"));
+		RunButton.click();
+	}
 }
