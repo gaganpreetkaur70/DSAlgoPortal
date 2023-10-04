@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\reshm\AppData\Local\Temp\testng-eclipse-1032809085\testng-customsuite.xml</span>
+                    <span>C:\Users\reshm\AppData\Local\Temp\testng-eclipse-532785026\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="array.PracticeQuestion" class="method navigator-link" hash-for-method="Question1">Question1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    <span class="method-stats">15 methods,   15 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -147,6 +133,26 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="array.PracticeQuestion" class="method navigator-link" hash-for-method="Question1_1">Question1_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="array.PracticeQuestion" class="method navigator-link" hash-for-method="Question1_2">Question1_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="array.PracticeQuestion" class="method navigator-link" hash-for-method="Question1_3">Question1_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="array.PracticeQuestion" class="method navigator-link" hash-for-method="Question1_4">Question1_4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="array.PracticeQuestion" class="method navigator-link" hash-for-method="SearchTheArray">SearchTheArray</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -182,74 +188,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">array.PracticeQuestion</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Question1">
-                  </a> <!-- Question1 -->
-                  <span class="method-name">Question1</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //form[@id=&apos;answer_form&apos;]//div//div//div//textarea) because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//form[@id=&apos;answer_form&apos;]//div//div//div//textarea)&apos; is not a valid XPath expression.
-  (Session info: chrome=117.0.5938.132)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [413b563637a9172bc9346da8697e9e00, findElement {using=xpath, value=//form[@id=&apos;answer_form&apos;]//div//div//div//textarea)}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\reshm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62683}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62683/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 413b563637a9172bc9346da8697e9e00
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at array.PracticeQuestion.Question1(PracticeQuestion.java:97)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -300,6 +238,34 @@ Session ID: 413b563637a9172bc9346da8697e9e00
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="Question1_1">
+                  </a> <!-- Question1_1 -->
+                  <span class="method-name">Question1_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Question1_2">
+                  </a> <!-- Question1_2 -->
+                  <span class="method-name">Question1_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Question1_3">
+                  </a> <!-- Question1_3 -->
+                  <span class="method-name">Question1_3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Question1_4">
+                  </a> <!-- Question1_4 -->
+                  <span class="method-name">Question1_4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="SearchTheArray">
                   </a> <!-- SearchTheArray -->
                   <span class="method-name">SearchTheArray</span>
@@ -338,7 +304,7 @@ Session ID: 413b563637a9172bc9346da8697e9e00
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\reshm\AppData\Local\Temp\testng-eclipse-1032809085\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\reshm\AppData\Local\Temp\testng-eclipse-532785026\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -387,60 +353,72 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(12);
+data.addRows(15);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'SearchTheArray')
 data.setCell(0, 2, 'array.PracticeQuestion')
-data.setCell(0, 3, 905);
+data.setCell(0, 3, 1208);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'login')
 data.setCell(1, 2, 'array.PracticeQuestion')
-data.setCell(1, 3, 820);
+data.setCell(1, 3, 1082);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'OpenWebsite')
+data.setCell(2, 1, 'SquaresOfSortedArray')
 data.setCell(2, 2, 'array.PracticeQuestion')
-data.setCell(2, 3, 631);
+data.setCell(2, 3, 663);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'GetStartedLink')
+data.setCell(3, 1, 'OpenWebsite')
 data.setCell(3, 2, 'array.PracticeQuestion')
-data.setCell(3, 3, 539);
+data.setCell(3, 3, 576);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'clickGetStarted_Array')
+data.setCell(4, 1, 'ArrayInPython')
 data.setCell(4, 2, 'array.PracticeQuestion')
-data.setCell(4, 3, 498);
+data.setCell(4, 3, 544);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'ArrayInPython')
+data.setCell(5, 1, 'GetStartedLink')
 data.setCell(5, 2, 'array.PracticeQuestion')
-data.setCell(5, 3, 442);
+data.setCell(5, 3, 436);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'SquaresOfSortedArray')
+data.setCell(6, 1, 'Question1_3')
 data.setCell(6, 2, 'array.PracticeQuestion')
-data.setCell(6, 3, 325);
+data.setCell(6, 3, 407);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'MaxConsecutiveOnes')
+data.setCell(7, 1, 'Question1_4')
 data.setCell(7, 2, 'array.PracticeQuestion')
-data.setCell(7, 3, 304);
+data.setCell(7, 3, 405);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'FindNumberWithEvenNumber')
+data.setCell(8, 1, 'MaxConsecutiveOnes')
 data.setCell(8, 2, 'array.PracticeQuestion')
-data.setCell(8, 3, 290);
+data.setCell(8, 3, 397);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'PracticeQuestions')
+data.setCell(9, 1, 'Question1_1')
 data.setCell(9, 2, 'array.PracticeQuestion')
-data.setCell(9, 3, 251);
+data.setCell(9, 3, 382);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'Question1')
+data.setCell(10, 1, 'FindNumberWithEvenNumber')
 data.setCell(10, 2, 'array.PracticeQuestion')
-data.setCell(10, 3, 172);
+data.setCell(10, 3, 381);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'SignInLink')
+data.setCell(11, 1, 'Question1_2')
 data.setCell(11, 2, 'array.PracticeQuestion')
-data.setCell(11, 3, 161);
+data.setCell(11, 3, 357);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'clickGetStarted_Array')
+data.setCell(12, 2, 'array.PracticeQuestion')
+data.setCell(12, 3, 347);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'PracticeQuestions')
+data.setCell(13, 2, 'array.PracticeQuestion')
+data.setCell(13, 3, 288);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'SignInLink')
+data.setCell(14, 2, 'array.PracticeQuestion')
+data.setCell(14, 3, 194);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -473,53 +451,63 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">OpenWebsite</span>
-                <span class="method-start">28 ms</span>
+                <span class="method-start">38 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GetStartedLink</span>
-                <span class="method-start">707 ms</span>
+                <span class="method-start">658 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SignInLink</span>
-                <span class="method-start">1250 ms</span>
+                <span class="method-start">1098 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">1413 ms</span>
+                <span class="method-start">1296 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clickGetStarted_Array</span>
-                <span class="method-start">2236 ms</span>
+                <span class="method-start">2382 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ArrayInPython</span>
-                <span class="method-start">2738 ms</span>
+                <span class="method-start">2732 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PracticeQuestions</span>
-                <span class="method-start">3183 ms</span>
+                <span class="method-start">3279 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SearchTheArray</span>
-                <span class="method-start">3439 ms</span>
+                <span class="method-start">3572 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Question1</span>
-                <span class="method-start">4347 ms</span>
+                <span class="method-name">Question1_1</span>
+                <span class="method-start">4785 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">MaxConsecutiveOnes</span>
-                <span class="method-start">4523 ms</span>
+                <span class="method-start">5174 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Question1_2</span>
+                <span class="method-start">5577 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">FindNumberWithEvenNumber</span>
-                <span class="method-start">4830 ms</span>
+                <span class="method-start">5939 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Question1_3</span>
+                <span class="method-start">6327 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SquaresOfSortedArray</span>
-                <span class="method-start">5123 ms</span>
+                <span class="method-start">6739 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Question1_4</span>
+                <span class="method-start">7407 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
