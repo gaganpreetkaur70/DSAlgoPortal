@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="classes" name="Linked-List">
-  <test thread-count="5" parallel="classes" name="Module">
-	  <packages>
-            <package name="module1" />
-        </packages>
-	  <!--<classes>
+  <test thread-count="100" parallel="classes" name="Module">
+	 
+	  <classes>
       
         <class name="module1.Login"/>
       <class name="module1.Registration"/>
@@ -15,7 +13,7 @@
       <class name="module1.LinkedList1"/>
     
     </classes>
-   <packages>
+  <!-- <packages>
       <package name="dstestcases"/>
       <package name="linkedList"/>
       <package name="module1"/>
