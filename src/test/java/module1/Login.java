@@ -83,10 +83,7 @@ public void logut() {
 
 }
 
-@Test (priority = 7)
-public void closeBrowser() {
-	 driver.close();
-}
+
 
 
 }

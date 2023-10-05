@@ -6,6 +6,10 @@
       
       <class name="module1.Registration"/>
       <class name="module1.Login"/>
+      <class name="module1.DataStructure"/>
+      <class name="module1.Array"/>
+      <class name="module1.LinkedList1"/>
+    
     </classes>
    <!-- <packages>
       <package name="dstestcases"/>
