@@ -2,10 +2,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="classes" name="Linked-List">
   <test thread-count="5" parallel="classes" name="Module">
-    <packages>
+	  <classes>
+      
+      <class name="module1.Registration"/>
+      <class name="module1.Login"/>
+    </classes>
+   <!-- <packages>
       <package name="dstestcases"/>
       <package name="linkedList"/>
       <package name="module1"/>
-    </packages>
+    </packages>-->
   </test> <!-- Module -->
 </suite> <!-- Linked-List -->
