@@ -10,78 +10,63 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import dsutilities.LoggerLoad;
 
 	public class DataStructureTest {
 		static WebDriver driver=new ChromeDriver();
-	
-	
-@Test (priority=1)
-	public void openwebsite() {
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"src/test/resources/driver/chromedriver.exe");
-	    
-	    String url="https://dsportalapp.herokuapp.com/home";
-	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	    driver.get(url);
-	    LoggerLoad.info("Website is opened successfully on chrome browser");
-	}
-	
-	
-	@Test (priority = 2)
-	public void login() throws IOException, InterruptedException {
-		
-		WebElement login = driver.findElement(By.linkText("Sign in"));
-		login.click();
-		LoggerLoad.info("Clicked on the login link");	
-		
-		//Read data from excel file
-		String path = System.getProperty("user.dir")+"/src/test/resources/UserData/User.xlsx";
-		LoggerLoad.info(path);
-		File ExcelFile = new File(path);
-		FileInputStream Fis = new FileInputStream(ExcelFile);
-		XSSFWorkbook workbook = new XSSFWorkbook(Fis);
-		XSSFSheet sheet = workbook.getSheet("Sheet1");
-		Iterator<Row> row = sheet.rowIterator();
-		
-		while(row.hasNext()) {
-			
-			Row currRow = row.next();
-			
-			if(currRow.getCell(0) != null) {
+		@BeforeTest
+		public void OpenBrowser() {
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\reshm\\eclipse-workspace\\DSAlgoAppTestNG\\src\\test\\resources\\driver\\chromedriver.exe");
 				
-				driver.findElement(By.id("id_username")).sendKeys(currRow.getCell(0).toString());
-			} 
-			
-			if(currRow.getCell(1) != null) {
-			
-				driver.findElement(By.id("id_password")).sendKeys(currRow.getCell(1).toString());
-			}
-			
-			WebElement loginBtn = driver.findElement(By.xpath("//div//form//input[@type='submit']"));
-			loginBtn.click();
-				
-				try {
-						Thread.sleep(3000);
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-			}			
-		
-	}
+		}
+	    @Test(priority=1)	
+		public void OpenWebsite() {
+			String url="https://dsportalapp.herokuapp.com/";
+			driver.get(url);
+			driver.manage().window().maximize();
+		}
+	    @Test(dependsOnMethods="OpenWebsite")
+	    public void GetStartedLink() {
+	    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	        WebElement GetStarted=driver.findElement(By.xpath("//button[@class='btn']"));
+	        GetStarted.click();
+	    }
+	    @Test(dependsOnMethods="GetStartedLink")
+	    public void SignInLink() {
+	    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	    	WebElement SignIn= driver.findElement(By.partialLinkText("Sign"));
+			SignIn.click();
+	    }
 	
-	@Test (priority = 3)
+	
+ @Test(dependsOnMethods="SignInLink")
+ public void login() {
+ 	String url="https://dsportalapp.herokuapp.com/login";
+ 	driver.get(url);
+ 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+ 	WebElement unametextbox=driver.findElement(By.id("id_username"));
+		unametextbox.sendKeys("abc123@gmail.com");
+		WebElement passwdtextbox=driver.findElement(By.id("id_password"));
+		passwdtextbox.sendKeys("Aaa@1234");
+		WebElement LoginButton=driver.findElement(By.xpath("//div//form//input[@type='submit']"));
+		LoginButton.click();
+		LoggerLoad.info("User logged in to the website successfully");
+ }
+	
+	@Test (dependsOnMethods="login")
 	public void openDataStructure() {
 		
 		 driver.findElement(By.xpath("//div[3]/div/div/div/a")).click();
 		 LoggerLoad.info("Data Structure page opened");
 	}
 	
-	@Test (priority = 4)
+	@Test (dependsOnMethods="openDataStructure")
 	public void openTimeComplexity() {
 		
 		 driver.findElement(By.xpath("//div[2]/ul/a[@class='list-group-item']")).click();
@@ -89,26 +74,35 @@ import dsutilities.LoggerLoad;
 	}
 	
 	
-	@Test (priority = 5)
+	
+	@Test(dependsOnMethods="openTimeComplexity")
+	public void TryHereLinkDataStructure(){
+		String url="https://dsportalapp.herokuapp.com/array/arrays-in-python/";
+		driver.get(url);
+		JavascriptExecutor js1=(JavascriptExecutor)driver;
+		js1.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+		WebElement tryherelink=driver.findElement(By.partialLinkText("here"));
+		tryherelink.click();
+		LoggerLoad.info("User can click on Try Here Link of DataStrcture");
+    	
+    }
+	@Test(dependsOnMethods="TryHereLinkDataStructure")
+    public void TextboxToEnterTheCode_DataStrcture() {
+		String url="https://dsportalapp.herokuapp.com/tryEditor";
+		driver.get(url);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		WebElement txtforruncode=driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
+		txtforruncode.sendKeys("print(\"Hello\")");
+		WebElement btnRun=driver.findElement(By.xpath("//button[@type='button']"));
+		btnRun.click();
+	}
+	@Test (dependsOnMethods="TextboxToEnterTheCode_DataStrcture")
 	public void openPracticeQuestion() {
-		
+		String url="https://dsportalapp.herokuapp.com/data-structures-introduction/time-complexity/";
+	 	driver.get(url);
+	 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		 driver.findElement(By.xpath("//div[2]/div/div/div/a[@class='list-group-item list-group-item-light text-info']")).click();
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		 driver.navigate().back();
-		 LoggerLoad.info("Practice Question page opened");
-		 
-	}
-	
-	@Test (priority = 6)
-	public void openTryHere() {
-		
-		 driver.findElement(By.xpath("//div[2]/div/div/a[@class='btn btn-info']")).click();
-		 LoggerLoad.info("Try Here page opened");
-		 
-	}
-	
-	@Test (priority = 7)
-	public void closeBrowser() {
-		 driver.close();
+		 LoggerLoad.info("Practice Question page opened");	 
 	}
 }
