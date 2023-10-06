@@ -18,7 +18,7 @@ import org.testng.annotations.Test;
 
 import dsutilities.LoggerLoad;
 
-public class Array {
+public class ArrayTest {
 	
 	static WebDriver driver=new ChromeDriver();
 	@BeforeTest

@@ -16,7 +16,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 import dsutilities.LoggerLoad;
 
-	public class DataStructure {
+	public class DataStructureTest {
 		static WebDriver driver=new ChromeDriver();
 	
 	

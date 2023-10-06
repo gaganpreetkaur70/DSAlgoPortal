@@ -18,7 +18,7 @@ import org.testng.annotations.Test;
 
 import dsutilities.LoggerLoad;
 
-public class Login {
+public class LoginTest {
 	static WebDriver driver=new ChromeDriver();
 	
 	

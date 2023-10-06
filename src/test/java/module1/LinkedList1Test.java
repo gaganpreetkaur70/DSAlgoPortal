@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import dsutilities.LoggerLoad;
 
-public class LinkedList1 {
+public class LinkedList1Test {
 
 	static WebDriver driver=new ChromeDriver();
 	@BeforeTest
