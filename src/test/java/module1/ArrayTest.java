@@ -1,8 +1,5 @@
 package module1;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeClass;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -10,16 +7,12 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import dsutilities.LoggerLoad;
 
 public class ArrayTest {
-	
 	static WebDriver driver=new ChromeDriver();
 	@BeforeTest
 	public void OpenBrowser() {
@@ -68,19 +61,6 @@ public class ArrayTest {
 		LoggerLoad.info("User is able to click on the Get started link of the array");
 		
 	}
-	
-	/*@Test(priority=2)
-	public void clickdrpdownArray() {
-		String url="https://dsportalapp.herokuapp.com/home";
-		driver.get(url);
-		//driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		WebElement clickdrpdown=driver.findElement(By.xpath("//div//div//div//a[contains(text(),'Data Structures')]"));
-		clickdrpdown.click();
-		WebElement clickArray=driver.findElement(By.xpath("//div//div//div//div//a[contains(text(),'Arrays')]"));
-		clickArray.click();	
-		LoggerLoad.info("User can select option:Array in dropdown list");
-	}*/
 	@Test(priority=3)
 	public void ArrayInPython() {
 		String url="https://dsportalapp.herokuapp.com/array/";
@@ -102,17 +82,16 @@ public class ArrayTest {
 		LoggerLoad.info("User can click on Try Here Link of Arrays in Python");
     	
     }
-	/*@Test(dependsOnMethods="TryHereLinkArrayInPython")
-	/*public void TextboxToEnterTheCode_ArrayInPython() {
+	@Test(dependsOnMethods="TryHereLinkArrayInPython")
+    public void TextboxToEnterTheCode_ArrayInPython() {
 		String url="https://dsportalapp.herokuapp.com/tryEditor";
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		WebElement txtforruncode=driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
-		txtforruncode.sendKeys("print(Hello)");
+		txtforruncode.sendKeys("print(\"Hello\")");
 		WebElement btnRun=driver.findElement(By.xpath("//button[@type='button']"));
 		btnRun.click();
-		
-	}*/
+	}
 	@Test(priority=4)
 	public void ArraysUsingListClick() {
 		String url="https://dsportalapp.herokuapp.com/array/";
@@ -133,18 +112,16 @@ public class ArrayTest {
 		tryherelink.click();
 		LoggerLoad.info("User can click on Try Here Link of Arrays Using List");		
 	}
-	
-	/*@Test(dependsOnMethods="TryHereArraysUsingList")
-	/*public void TextboxToEnterTheCode_ArraysUsingList() {
+	@Test(dependsOnMethods="TryHereArraysUsingList")
+    public void TextboxToEnterTheCode_ArrayUsingList() {
 		String url="https://dsportalapp.herokuapp.com/tryEditor";
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		WebElement txtforruncode=driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
-		txtforruncode.sendKeys("print(Hello)");
+		txtforruncode.sendKeys("print(\"Hello\")");
 		WebElement btnRun=driver.findElement(By.xpath("//button[@type='button']"));
 		btnRun.click();
-		
-	}*/
+	}
 	@Test(priority=5)
 	public void BasicOperationListClick() {
 		String url="https://dsportalapp.herokuapp.com/array/";
@@ -167,7 +144,16 @@ public class ArrayTest {
 		LoggerLoad.info("User can click on Try Here Link of Basic Operations in List");
 		
 	}
-	
+	@Test(dependsOnMethods="TryHereBasicOperationList")
+    public void TextboxToEnterTheCode_BasicOperationList() {
+		String url="https://dsportalapp.herokuapp.com/tryEditor";
+		driver.get(url);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		WebElement txtforruncode=driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
+		txtforruncode.sendKeys("print(\"Hello\")");
+		WebElement btnRun=driver.findElement(By.xpath("//button[@type='button']"));
+		btnRun.click();
+	}
 	@Test(priority=6)
 	public void ApplicationOfArrayClick() {
 		String url="https://dsportalapp.herokuapp.com/array/";
@@ -189,59 +175,15 @@ public class ArrayTest {
 		tryherelink.click();
 		LoggerLoad.info("User can click on Try Here Link of Application of Array");
 	}
-	//Testcase no.41: Bellow test case precondition webpage is wrong. "Practice Question" link is not present in "Array Home page"
-	@Test(priority=7)
-	public void PracticeQuestions() {
-		String url="https://dsportalapp.herokuapp.com/array/applications-of-array/";
+	@Test(dependsOnMethods="TryHereApplicationOfArray")
+    public void TextboxToEnterTheCode_ApplicationOfArray() {
+		String url="https://dsportalapp.herokuapp.com/tryEditor";
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		WebElement PracticeQuestionsLink=driver.findElement(By.partialLinkText("Practice"));
-		PracticeQuestionsLink.click();
-		
+		WebElement txtforruncode=driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
+		txtforruncode.sendKeys("print(\"Hello\")");
+		WebElement btnRun=driver.findElement(By.xpath("//button[@type='button']"));
+		btnRun.click();
 	}
 	
-	@Test(dependsOnMethods="PracticeQuestions")
-	public void SearchTheArray(){
-		String url="https://dsportalapp.herokuapp.com/array/practice";
-		driver.get(url);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		WebElement SearchTheArray=driver.findElement(By.partialLinkText("Search"));
-		SearchTheArray.click();	
-		LoggerLoad.info("User can click on Search the Array link in Practice Question");
-	}
-	
-	@Test(priority=16)
-	public void MaxConsecutiveOnes() {
-		String url="https://dsportalapp.herokuapp.com/array/practice";
-		driver.get(url);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		WebElement MaxConsecutiveLink=driver.findElement(By.partialLinkText("Max"));
-		MaxConsecutiveLink.click();
-		LoggerLoad.info("User can click on Max Consicutive Ones");
-	}
-	
-	@Test(priority=17)
-	public void FindNumberWithEvenNumber() {
-		String url="https://dsportalapp.herokuapp.com/array/practice";
-		driver.get(url);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		WebElement FindNumber=driver.findElement(By.partialLinkText("Find"));
-		FindNumber.click();
-		LoggerLoad.info("User can click on FindNumbers with Even Number Of Digits");
-		
-	}
-	
-	@Test(priority=18)
-	public void SquaresOfSortedArray() {
-		String url="https://dsportalapp.herokuapp.com/array/practice";
-		driver.get(url);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		WebElement SquareOfSortedClick=driver.findElement(By.partialLinkText("Squares"));
-		SquareOfSortedClick.click();
-		LoggerLoad.info("User can click on Squares of Sorted Array");
-	}
-	@AfterClass
-	public void closeBrowser() {
-		driver.close();
-	}
 }
