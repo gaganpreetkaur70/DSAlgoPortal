@@ -16,6 +16,7 @@ public class RegistrationTest {
 	
 @Test (priority=1)
 public void openwebsite() { 
+	LoggerLoad.info("Entered to Registeration test class file");
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\reshm\\eclipse-workspace\\DSAlgoAppTestNG\\src\\test\\resources\\driver\\chromedriver.exe");
     
     String url="https://dsportalapp.herokuapp.com/";
