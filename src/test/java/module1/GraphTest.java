@@ -110,5 +110,12 @@ public class GraphTest {
 		WebElement btnRun=driver.findElement(By.xpath("//button[@type='button']"));
 		btnRun.click();
     }
-
+  @Test(priority=2)
+    public void PracticeQuestion_Graph() {
+    	String url="https://dsportalapp.herokuapp.com/graph/graph-representations/";
+    	driver.get(url);
+    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    	WebElement PracticeQuest=driver.findElement(By.linkText("Practice Questions"));
+    	PracticeQuest.click();
+    }
 }
