@@ -17,14 +17,14 @@ public class HomeTest {
 	
 	@BeforeTest
 	public void OpenBrowser() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\reshm\\eclipse-workspace\\DSAlgoAppTestNG\\src\\test\\resources\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"src/test/resources/driver/chromedriver.exe");
 			
 	}
     @Test(priority=1)	
 	public void OpenWebsite() {
 		String url="https://dsportalapp.herokuapp.com/";
 		driver.get(url);
-		driver.manage().window().maximize();
+		
 	}
    
 
