@@ -1,0 +1,10 @@
+<environment>
+	<parameter>
+	<key>Browser</key>
+<value>Chrome</value>
+</parameter>
+<parameter>
+	<key>project</key>
+<value>dsalgo</value>
+</parameter>
+</environment>
