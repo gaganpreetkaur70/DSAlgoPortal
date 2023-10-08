@@ -1,4 +1,4 @@
-package module1;
+package pages;
 
 import org.testng.annotations.Test;
 import java.time.Duration;
@@ -10,14 +10,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 import dsutilities.LoggerLoad;
 
-public class RegistrationTest {
-	static WebDriver driver=new ChromeDriver();
-	
+public class RegistrationTest extends HomeTest {
 	
 @Test (priority=1)
 public void openwebsite() { 
 	LoggerLoad.info("Entered to Registeration test class file");
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\reshm\\eclipse-workspace\\DSAlgoAppTestNG\\src\\test\\resources\\driver\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"src/test/resources/driver/chromedriver.exe");
     
     String url="https://dsportalapp.herokuapp.com/";
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -52,8 +50,8 @@ public void Register() {
 	RegisterButton.click();
 }
 
-@Test(priority=4)
-public void Login() {
+//@Test(priority=4)
+/*public void Login() {
 	String url="https://dsportalapp.herokuapp.com/register";
 	driver.get(url);
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -66,6 +64,6 @@ public void Login() {
 	WebElement LoginButton=driver.findElement(By.xpath("//div//form//input[@type='submit']"));
 	LoginButton.click();
 	
-}
+}*/
 
 }
