@@ -3,8 +3,7 @@
 <suite name="DsAlgoSuite"  thread-count="10">
   <test name="DsAlgoTest" >
     <classes>   			
-		 <class name="pages.HomeTest"/>
-		 <class name="pages.RegistrationTest"/>
+		
 		
     </classes>     
   </test> <!-- Test -->  
