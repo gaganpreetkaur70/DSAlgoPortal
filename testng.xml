@@ -9,6 +9,7 @@
 		 <class name="pages.DataStructureTest"/>
 		 <class name="pages.ArrayTest"/>
 		 <class name="pages.LinkedListTest"/>
+		  <class name="pages.TreeTest"/>
 		 <class name="pages.GraphTest"/>
     </classes>     
   </test> <!-- Test -->  
