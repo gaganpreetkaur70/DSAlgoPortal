@@ -3,8 +3,14 @@
 <suite name="DsAlgoSuite"  thread-count="10">
   <test name="DsAlgoTest" >
     <classes>   			
-		
-		
+		 <class name="pages.HomeTest"/>
+		 <class name="pages.RegistrationTest"/>
+		 <class name="pages.LoginTest"/>
+		 <class name="pages.DataStructureTest"/>
+		 <class name="pages.ArrayTest"/>
+		 <class name="pages.LinkedListTest"/>
+		  <class name="pages.TreeTest"/>
+		 <class name="pages.GraphTest"/>
     </classes>     
   </test> <!-- Test -->  
 </suite> <!-- Suite -->
