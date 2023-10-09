@@ -1,4 +1,4 @@
-package pages;
+package page1;
 import org.testng.AssertJUnit;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
