@@ -1,69 +1,87 @@
 package pages;
 
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import java.time.Duration;
-
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
-import dsutilities.LoggerLoad;
 
 public class RegistrationTest extends HomeTest {
 	
-@Test (priority=1)
-public void openwebsite() { 
-	LoggerLoad.info("Entered to Registeration test class file");
-	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"src/test/resources/driver/chromedriver.exe");
-    
-    String url="https://dsportalapp.herokuapp.com/";
-    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-    driver.get(url);
-    LoggerLoad.info("Website is opened successfully on chrome browser");
-}
-
-@Test(priority=2)
-public void GetStarted() {
-	driver.navigate();
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	WebElement getstarted=driver.findElement(By.partialLinkText("Started"));
-	getstarted.click();
-	LoggerLoad.info("Clicked on the link");	
-}
-
-@Test(priority=3)
-public void Register() {
-	String url="https://dsportalapp.herokuapp.com/register";
-	driver.get(url);
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	WebElement UserNameTextBox=driver.findElement(By.id("id_username"));
-	UserNameTextBox.sendKeys("abc123@gmail.com");
-	LoggerLoad.info("Entered username");
-	WebElement PasswdTextBox=driver.findElement(By.id("id_password1"));
-	PasswdTextBox.sendKeys("Aaa@1234");
-	LoggerLoad.info("Password entry");
-	WebElement ConfirmPasswd=driver.findElement(By.id("id_password2"));
-	ConfirmPasswd.sendKeys("Aaa@1234");
-	LoggerLoad.info("Confirm Password entry");
-	WebElement RegisterButton=driver.findElement(By.xpath("//div//form//input[@type='submit']"));
-	RegisterButton.click();
-}
-
-//@Test(priority=4)
-/*public void Login() {
-	String url="https://dsportalapp.herokuapp.com/register";
-	driver.get(url);
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	WebElement SignIn= driver.findElement(By.partialLinkText("Sign"));
-	SignIn.click();
-	WebElement unametextbox=driver.findElement(By.id("id_username"));
-	unametextbox.sendKeys("abc123@gmail.com");
-	WebElement passwdtextbox=driver.findElement(By.id("id_password"));
-	passwdtextbox.sendKeys("Aaa@1234");
-	WebElement LoginButton=driver.findElement(By.xpath("//div//form//input[@type='submit']"));
-	LoginButton.click();
+	XSSFWorkbook ExcelWBook = null;
+	XSSFSheet ExcelWSheet;
 	
-}*/
+	@BeforeTest
+	public void launchBrowser() {
+		System.out.println("launching Chrome browser");
+	
+	}
+	@Test
+	public void testHome() {
+		
+		File excelFilePath =  new File (System.getProperty("user.dir")+"/src/test/resources/UserData/DSAlgo.xlsx");
+		FileInputStream inputstream = null;
+		try {
+			inputstream = new FileInputStream(excelFilePath);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		String url = "https://dsportalapp.herokuapp.com/home";
+		String expected = "NumpyNinja";
+		driver.get(url);
+		String actual = driver.getTitle();
+		Assert.assertEquals(actual,expected);
+		WebElement registerLink = driver.findElement(By.linkText("Register"));
+		registerLink.click();
+	    try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+	
+	try {
+		ExcelWBook = new XSSFWorkbook(inputstream);
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+     //To access the sheet
+     ExcelWSheet = ExcelWBook.getSheetAt(0);
+     //To access total rows
+     int ttlRows = ExcelWSheet.getLastRowNum()+1;
+     //read row outer for loop
+     for(int currentRow = 0; currentRow<=ttlRows;currentRow++)
+     {
+
+    	 //WebDriver driver = new ChromeDriver();
+    	 //driver.get("https://dsportalapp.herokuapp.com/register");
+    	 driver.findElement(By.id("id_username")).sendKeys(ExcelWSheet.getRow(currentRow).getCell(0).toString());
+    	 driver.findElement(By.id("id_password1")).sendKeys(ExcelWSheet.getRow(currentRow).getCell(1).toString());
+    	 driver.findElement(By.id("id_password2")).sendKeys(ExcelWSheet.getRow(currentRow).getCell(2).toString());
+    	 WebElement registerButton = driver.findElement(By.xpath("//input[@type='submit' and @value='Register']"));
+         registerButton.click();
+         try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	 System.out.println("\n");
+     } 
+          try {
+			ExcelWBook.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+      }
+
+
 
 }
