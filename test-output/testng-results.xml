@@ -1,77 +1,313 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="71" passed="71" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-04T15:22:48 EDT" name="Default suite" finished-at="2023-10-04T15:22:56 EDT" duration-ms="7827">
+  <suite started-at="2023-10-08T16:07:20 EDT" name="DsAlgoSuite" finished-at="2023-10-08T16:07:57 EDT" duration-ms="36451">
     <groups>
     </groups>
-    <test started-at="2023-10-04T15:22:48 EDT" name="Default test" finished-at="2023-10-04T15:22:56 EDT" duration-ms="7827">
-      <class name="array.PracticeQuestion">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:48 EDT" name="OpenBrowser" finished-at="2023-10-04T15:22:48 EDT" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method signature="OpenWebsite()[pri:1, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:48 EDT" name="OpenWebsite" finished-at="2023-10-04T15:22:49 EDT" duration-ms="576" status="PASS">
+    <test started-at="2023-10-08T16:07:20 EDT" name="DsAlgoTest" finished-at="2023-10-08T16:07:57 EDT" duration-ms="36451">
+      <class name="pages.RegistrationTest">
+        <test-method signature="OpenWebsite()[pri:1, instance:pages.RegistrationTest@66f659e6]" started-at="2023-10-08T16:07:21 EDT" name="OpenWebsite" finished-at="2023-10-08T16:07:21 EDT" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenWebsite -->
-        <test-method signature="GetStartedLink()[pri:0, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:49 EDT" name="GetStartedLink" finished-at="2023-10-04T15:22:49 EDT" depends-on-methods="array.PracticeQuestion.OpenWebsite" duration-ms="436" status="PASS">
+        <test-method signature="openwebsite()[pri:1, instance:pages.RegistrationTest@66f659e6]" started-at="2023-10-08T16:07:21 EDT" name="openwebsite" finished-at="2023-10-08T16:07:22 EDT" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openwebsite -->
+        <test-method signature="GetStarted()[pri:2, instance:pages.RegistrationTest@66f659e6]" started-at="2023-10-08T16:07:22 EDT" name="GetStarted" finished-at="2023-10-08T16:07:22 EDT" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStarted -->
+        <test-method signature="Register()[pri:3, instance:pages.RegistrationTest@66f659e6]" started-at="2023-10-08T16:07:22 EDT" name="Register" finished-at="2023-10-08T16:07:23 EDT" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+      </class> <!-- pages.RegistrationTest -->
+      <class name="pages.HomeTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:pages.HomeTest@3a2b2322]" started-at="2023-10-08T16:07:20 EDT" name="OpenBrowser" finished-at="2023-10-08T16:07:20 EDT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="OpenWebsite()[pri:1, instance:pages.HomeTest@3a2b2322]" started-at="2023-10-08T16:07:20 EDT" name="OpenWebsite" finished-at="2023-10-08T16:07:21 EDT" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWebsite -->
+      </class> <!-- pages.HomeTest -->
+      <class name="pages.ArrayTest">
+        <test-method signature="OpenWebsite()[pri:1, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:37 EDT" name="OpenWebsite" finished-at="2023-10-08T16:07:37 EDT" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWebsite -->
+        <test-method signature="GetStartedLink()[pri:0, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:37 EDT" name="GetStartedLink" finished-at="2023-10-08T16:07:37 EDT" depends-on-methods="pages.ArrayTest.OpenWebsite" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetStartedLink -->
-        <test-method signature="SignInLink()[pri:0, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:49 EDT" name="SignInLink" finished-at="2023-10-04T15:22:49 EDT" depends-on-methods="array.PracticeQuestion.GetStartedLink" duration-ms="194" status="PASS">
+        <test-method signature="SignInLink()[pri:0, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:37 EDT" name="SignInLink" finished-at="2023-10-08T16:07:37 EDT" depends-on-methods="pages.ArrayTest.GetStartedLink" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignInLink -->
-        <test-method signature="login()[pri:0, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:49 EDT" name="login" finished-at="2023-10-04T15:22:50 EDT" depends-on-methods="array.PracticeQuestion.SignInLink" duration-ms="1082" status="PASS">
+        <test-method signature="login()[pri:0, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:37 EDT" name="login" finished-at="2023-10-08T16:07:38 EDT" depends-on-methods="pages.ArrayTest.SignInLink" duration-ms="533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="clickGetStarted_Array()[pri:0, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:50 EDT" name="clickGetStarted_Array" finished-at="2023-10-04T15:22:51 EDT" depends-on-methods="array.PracticeQuestion.login" duration-ms="347" status="PASS">
+        <test-method signature="clickGetStarted_Array()[pri:0, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:38 EDT" name="clickGetStarted_Array" finished-at="2023-10-08T16:07:38 EDT" depends-on-methods="pages.ArrayTest.login" duration-ms="431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickGetStarted_Array -->
-        <test-method signature="ArrayInPython()[pri:3, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:51 EDT" name="ArrayInPython" finished-at="2023-10-04T15:22:51 EDT" duration-ms="544" status="PASS">
+        <test-method signature="ArrayInPython()[pri:3, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:38 EDT" name="ArrayInPython" finished-at="2023-10-08T16:07:38 EDT" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArrayInPython -->
-        <test-method signature="PracticeQuestions()[pri:0, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:51 EDT" name="PracticeQuestions" finished-at="2023-10-04T15:22:51 EDT" depends-on-methods="array.PracticeQuestion.ArrayInPython" duration-ms="288" status="PASS">
+        <test-method signature="TryHereLinkArrayInPython()[pri:0, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:38 EDT" name="TryHereLinkArrayInPython" finished-at="2023-10-08T16:07:39 EDT" depends-on-methods="pages.ArrayTest.ArrayInPython" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PracticeQuestions -->
-        <test-method signature="SearchTheArray()[pri:0, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:51 EDT" name="SearchTheArray" finished-at="2023-10-04T15:22:53 EDT" depends-on-methods="array.PracticeQuestion.PracticeQuestions" duration-ms="1208" status="PASS">
+        </test-method> <!-- TryHereLinkArrayInPython -->
+        <test-method signature="TextboxToEnterTheCode_ArrayInPython()[pri:0, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:39 EDT" name="TextboxToEnterTheCode_ArrayInPython" finished-at="2023-10-08T16:07:39 EDT" depends-on-methods="pages.ArrayTest.TryHereLinkArrayInPython" duration-ms="334" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchTheArray -->
-        <test-method signature="Question1_1()[pri:0, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:53 EDT" name="Question1_1" finished-at="2023-10-04T15:22:53 EDT" depends-on-methods="array.PracticeQuestion.SearchTheArray" duration-ms="382" status="PASS">
+        </test-method> <!-- TextboxToEnterTheCode_ArrayInPython -->
+        <test-method signature="ArraysUsingListClick()[pri:4, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:39 EDT" name="ArraysUsingListClick" finished-at="2023-10-08T16:07:40 EDT" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Question1_1 -->
-        <test-method signature="MaxConsecutiveOnes()[pri:4, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:53 EDT" name="MaxConsecutiveOnes" finished-at="2023-10-04T15:22:53 EDT" duration-ms="397" status="PASS">
+        </test-method> <!-- ArraysUsingListClick -->
+        <test-method signature="TryHereArraysUsingList()[pri:0, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:40 EDT" name="TryHereArraysUsingList" finished-at="2023-10-08T16:07:40 EDT" depends-on-methods="pages.ArrayTest.ArraysUsingListClick" duration-ms="392" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MaxConsecutiveOnes -->
-        <test-method signature="Question1_2()[pri:0, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:53 EDT" name="Question1_2" finished-at="2023-10-04T15:22:54 EDT" depends-on-methods="array.PracticeQuestion.MaxConsecutiveOnes" duration-ms="357" status="PASS">
+        </test-method> <!-- TryHereArraysUsingList -->
+        <test-method signature="TextboxToEnterTheCode_ArrayUsingList()[pri:0, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:40 EDT" name="TextboxToEnterTheCode_ArrayUsingList" finished-at="2023-10-08T16:07:40 EDT" depends-on-methods="pages.ArrayTest.TryHereArraysUsingList" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Question1_2 -->
-        <test-method signature="FindNumberWithEvenNumber()[pri:5, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:54 EDT" name="FindNumberWithEvenNumber" finished-at="2023-10-04T15:22:54 EDT" duration-ms="381" status="PASS">
+        </test-method> <!-- TextboxToEnterTheCode_ArrayUsingList -->
+        <test-method signature="BasicOperationListClick()[pri:5, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:40 EDT" name="BasicOperationListClick" finished-at="2023-10-08T16:07:41 EDT" duration-ms="446" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FindNumberWithEvenNumber -->
-        <test-method signature="Question1_3()[pri:0, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:54 EDT" name="Question1_3" finished-at="2023-10-04T15:22:55 EDT" depends-on-methods="array.PracticeQuestion.FindNumberWithEvenNumber" duration-ms="407" status="PASS">
+        </test-method> <!-- BasicOperationListClick -->
+        <test-method signature="TryHereBasicOperationList()[pri:0, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:41 EDT" name="TryHereBasicOperationList" finished-at="2023-10-08T16:07:41 EDT" depends-on-methods="pages.ArrayTest.BasicOperationListClick" duration-ms="341" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Question1_3 -->
-        <test-method signature="SquaresOfSortedArray()[pri:6, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:55 EDT" name="SquaresOfSortedArray" finished-at="2023-10-04T15:22:55 EDT" duration-ms="663" status="PASS">
+        </test-method> <!-- TryHereBasicOperationList -->
+        <test-method signature="TextboxToEnterTheCode_BasicOperationList()[pri:0, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:41 EDT" name="TextboxToEnterTheCode_BasicOperationList" finished-at="2023-10-08T16:07:41 EDT" depends-on-methods="pages.ArrayTest.TryHereBasicOperationList" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SquaresOfSortedArray -->
-        <test-method signature="Question1_4()[pri:0, instance:array.PracticeQuestion@5c748168]" started-at="2023-10-04T15:22:55 EDT" name="Question1_4" finished-at="2023-10-04T15:22:56 EDT" depends-on-methods="array.PracticeQuestion.SquaresOfSortedArray" duration-ms="405" status="PASS">
+        </test-method> <!-- TextboxToEnterTheCode_BasicOperationList -->
+        <test-method signature="ApplicationOfArrayClick()[pri:6, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:41 EDT" name="ApplicationOfArrayClick" finished-at="2023-10-08T16:07:42 EDT" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Question1_4 -->
-      </class> <!-- array.PracticeQuestion -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- ApplicationOfArrayClick -->
+        <test-method signature="TryHereApplicationOfArray()[pri:0, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:42 EDT" name="TryHereApplicationOfArray" finished-at="2023-10-08T16:07:42 EDT" depends-on-methods="pages.ArrayTest.ApplicationOfArrayClick" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereApplicationOfArray -->
+        <test-method signature="TextboxToEnterTheCode_ApplicationOfArray()[pri:0, instance:pages.ArrayTest@2a9bc08f]" started-at="2023-10-08T16:07:42 EDT" name="TextboxToEnterTheCode_ApplicationOfArray" finished-at="2023-10-08T16:07:42 EDT" depends-on-methods="pages.ArrayTest.TryHereApplicationOfArray" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextboxToEnterTheCode_ApplicationOfArray -->
+      </class> <!-- pages.ArrayTest -->
+      <class name="pages.DataStructureTest">
+        <test-method signature="OpenWebsite()[pri:1, instance:pages.DataStructureTest@2063c53e]" started-at="2023-10-08T16:07:33 EDT" name="OpenWebsite" finished-at="2023-10-08T16:07:33 EDT" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWebsite -->
+        <test-method signature="GetStartedLink()[pri:0, instance:pages.DataStructureTest@2063c53e]" started-at="2023-10-08T16:07:33 EDT" name="GetStartedLink" finished-at="2023-10-08T16:07:33 EDT" depends-on-methods="pages.DataStructureTest.OpenWebsite" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStartedLink -->
+        <test-method signature="SignInLink()[pri:0, instance:pages.DataStructureTest@2063c53e]" started-at="2023-10-08T16:07:33 EDT" name="SignInLink" finished-at="2023-10-08T16:07:34 EDT" depends-on-methods="pages.DataStructureTest.GetStartedLink" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInLink -->
+        <test-method signature="login()[pri:0, instance:pages.DataStructureTest@2063c53e]" started-at="2023-10-08T16:07:34 EDT" name="login" finished-at="2023-10-08T16:07:34 EDT" depends-on-methods="pages.DataStructureTest.SignInLink" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="openDataStructure()[pri:0, instance:pages.DataStructureTest@2063c53e]" started-at="2023-10-08T16:07:34 EDT" name="openDataStructure" finished-at="2023-10-08T16:07:34 EDT" depends-on-methods="pages.DataStructureTest.OpenWebsite" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDataStructure -->
+        <test-method signature="openTimeComplexity()[pri:0, instance:pages.DataStructureTest@2063c53e]" started-at="2023-10-08T16:07:34 EDT" name="openTimeComplexity" finished-at="2023-10-08T16:07:35 EDT" depends-on-methods="pages.DataStructureTest.openDataStructure" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTimeComplexity -->
+        <test-method signature="TryHereLinkDataStructure()[pri:0, instance:pages.DataStructureTest@2063c53e]" started-at="2023-10-08T16:07:35 EDT" name="TryHereLinkDataStructure" finished-at="2023-10-08T16:07:36 EDT" depends-on-methods="pages.DataStructureTest.openTimeComplexity" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereLinkDataStructure -->
+        <test-method signature="TextboxToEnterTheCode_DataStrcture()[pri:0, instance:pages.DataStructureTest@2063c53e]" started-at="2023-10-08T16:07:36 EDT" name="TextboxToEnterTheCode_DataStrcture" finished-at="2023-10-08T16:07:36 EDT" depends-on-methods="pages.DataStructureTest.TryHereLinkDataStructure" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextboxToEnterTheCode_DataStrcture -->
+        <test-method signature="openPracticeQuestion()[pri:0, instance:pages.DataStructureTest@2063c53e]" started-at="2023-10-08T16:07:36 EDT" name="openPracticeQuestion" finished-at="2023-10-08T16:07:37 EDT" depends-on-methods="pages.DataStructureTest.TextboxToEnterTheCode_DataStrcture" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPracticeQuestion -->
+      </class> <!-- pages.DataStructureTest -->
+      <class name="pages.GraphTest">
+        <test-method signature="OpenWebsite()[pri:1, instance:pages.GraphTest@50a3d0f6]" started-at="2023-10-08T16:07:52 EDT" name="OpenWebsite" finished-at="2023-10-08T16:07:52 EDT" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWebsite -->
+        <test-method signature="GetStartedLink()[pri:0, instance:pages.GraphTest@50a3d0f6]" started-at="2023-10-08T16:07:52 EDT" name="GetStartedLink" finished-at="2023-10-08T16:07:53 EDT" depends-on-methods="pages.GraphTest.OpenWebsite" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStartedLink -->
+        <test-method signature="SignInLink()[pri:0, instance:pages.GraphTest@50a3d0f6]" started-at="2023-10-08T16:07:53 EDT" name="SignInLink" finished-at="2023-10-08T16:07:53 EDT" depends-on-methods="pages.GraphTest.GetStartedLink" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInLink -->
+        <test-method signature="login()[pri:0, instance:pages.GraphTest@50a3d0f6]" started-at="2023-10-08T16:07:53 EDT" name="login" finished-at="2023-10-08T16:07:53 EDT" depends-on-methods="pages.GraphTest.SignInLink" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="GetStarted_Graph()[pri:0, instance:pages.GraphTest@50a3d0f6]" started-at="2023-10-08T16:07:53 EDT" name="GetStarted_Graph" finished-at="2023-10-08T16:07:54 EDT" depends-on-methods="pages.GraphTest.login" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStarted_Graph -->
+        <test-method signature="ClickGraphLink()[pri:0, instance:pages.GraphTest@50a3d0f6]" started-at="2023-10-08T16:07:54 EDT" name="ClickGraphLink" finished-at="2023-10-08T16:07:54 EDT" depends-on-methods="pages.GraphTest.GetStarted_Graph" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickGraphLink -->
+        <test-method signature="TryHere_GraphLink()[pri:0, instance:pages.GraphTest@50a3d0f6]" started-at="2023-10-08T16:07:54 EDT" name="TryHere_GraphLink" finished-at="2023-10-08T16:07:54 EDT" depends-on-methods="pages.GraphTest.ClickGraphLink" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHere_GraphLink -->
+        <test-method signature="TextboxToEnterTheCode_Graph()[pri:0, instance:pages.GraphTest@50a3d0f6]" started-at="2023-10-08T16:07:54 EDT" name="TextboxToEnterTheCode_Graph" finished-at="2023-10-08T16:07:55 EDT" depends-on-methods="pages.GraphTest.TryHere_GraphLink" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextboxToEnterTheCode_Graph -->
+        <test-method signature="GraphRepresentations_Click()[pri:0, instance:pages.GraphTest@50a3d0f6]" started-at="2023-10-08T16:07:55 EDT" name="GraphRepresentations_Click" finished-at="2023-10-08T16:07:55 EDT" depends-on-methods="pages.GraphTest.TextboxToEnterTheCode_Graph" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GraphRepresentations_Click -->
+        <test-method signature="TryHere_GraphRepresentation()[pri:0, instance:pages.GraphTest@50a3d0f6]" started-at="2023-10-08T16:07:55 EDT" name="TryHere_GraphRepresentation" finished-at="2023-10-08T16:07:56 EDT" depends-on-methods="pages.GraphTest.GraphRepresentations_Click" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHere_GraphRepresentation -->
+        <test-method signature="TextboxToEnterTheCode_Representation()[pri:0, instance:pages.GraphTest@50a3d0f6]" started-at="2023-10-08T16:07:56 EDT" name="TextboxToEnterTheCode_Representation" finished-at="2023-10-08T16:07:56 EDT" depends-on-methods="pages.GraphTest.TryHere_GraphRepresentation" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextboxToEnterTheCode_Representation -->
+        <test-method signature="PracticeQuestion_Graph()[pri:2, instance:pages.GraphTest@50a3d0f6]" started-at="2023-10-08T16:07:56 EDT" name="PracticeQuestion_Graph" finished-at="2023-10-08T16:07:56 EDT" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeQuestion_Graph -->
+        <test-method signature="closeBrowser()[pri:0, instance:pages.GraphTest@50a3d0f6]" started-at="2023-10-08T16:07:56 EDT" name="closeBrowser" finished-at="2023-10-08T16:07:57 EDT" depends-on-methods="pages.GraphTest.PracticeQuestion_Graph" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- pages.GraphTest -->
+      <class name="pages.LoginTest">
+        <test-method signature="login()[pri:0, instance:pages.LoginTest@4a68135e]" started-at="2023-10-08T16:07:23 EDT" name="login" finished-at="2023-10-08T16:07:33 EDT" duration-ms="10360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="OpenWebsite()[pri:1, instance:pages.LoginTest@4a68135e]" started-at="2023-10-08T16:07:33 EDT" name="OpenWebsite" finished-at="2023-10-08T16:07:33 EDT" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWebsite -->
+      </class> <!-- pages.LoginTest -->
+      <class name="pages.LinkedListTest">
+        <test-method signature="OpenWebsite()[pri:1, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:42 EDT" name="OpenWebsite" finished-at="2023-10-08T16:07:43 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWebsite -->
+        <test-method signature="GetStartedLink()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:43 EDT" name="GetStartedLink" finished-at="2023-10-08T16:07:43 EDT" depends-on-methods="pages.LinkedListTest.OpenWebsite" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStartedLink -->
+        <test-method signature="SignInLink()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:43 EDT" name="SignInLink" finished-at="2023-10-08T16:07:43 EDT" depends-on-methods="pages.LinkedListTest.GetStartedLink" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInLink -->
+        <test-method signature="login()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:43 EDT" name="login" finished-at="2023-10-08T16:07:44 EDT" depends-on-methods="pages.LinkedListTest.SignInLink" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="GetStarted_LinkedList()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:44 EDT" name="GetStarted_LinkedList" finished-at="2023-10-08T16:07:44 EDT" depends-on-methods="pages.LinkedListTest.login" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStarted_LinkedList -->
+        <test-method signature="ClickOnLinkedList()[pri:2, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:44 EDT" name="ClickOnLinkedList" finished-at="2023-10-08T16:07:44 EDT" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLinkedList -->
+        <test-method signature="clickonIntroduction()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:44 EDT" name="clickonIntroduction" finished-at="2023-10-08T16:07:45 EDT" depends-on-methods="pages.LinkedListTest.ClickOnLinkedList" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonIntroduction -->
+        <test-method signature="TryHereLinkedList()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:45 EDT" name="TryHereLinkedList" finished-at="2023-10-08T16:07:45 EDT" depends-on-methods="pages.LinkedListTest.clickonIntroduction" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereLinkedList -->
+        <test-method signature="TextboxToEnterTheCode_LinkedList()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:45 EDT" name="TextboxToEnterTheCode_LinkedList" finished-at="2023-10-08T16:07:45 EDT" depends-on-methods="pages.LinkedListTest.TryHereLinkedList" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextboxToEnterTheCode_LinkedList -->
+        <test-method signature="TypesOfLinkListLink()[pri:3, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:45 EDT" name="TypesOfLinkListLink" finished-at="2023-10-08T16:07:46 EDT" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TypesOfLinkListLink -->
+        <test-method signature="TryHereLinkofLinkedList()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:46 EDT" name="TryHereLinkofLinkedList" finished-at="2023-10-08T16:07:46 EDT" depends-on-methods="pages.LinkedListTest.TypesOfLinkListLink" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereLinkofLinkedList -->
+        <test-method signature="TextboxToEnterTheCode_TypesOfLinkedList()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:46 EDT" name="TextboxToEnterTheCode_TypesOfLinkedList" finished-at="2023-10-08T16:07:47 EDT" depends-on-methods="pages.LinkedListTest.TryHereLinkofLinkedList" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextboxToEnterTheCode_TypesOfLinkedList -->
+        <test-method signature="implimentLinkListInPython()[pri:4, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:47 EDT" name="implimentLinkListInPython" finished-at="2023-10-08T16:07:47 EDT" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- implimentLinkListInPython -->
+        <test-method signature="TryHereLinkOfImplimentLink()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:47 EDT" name="TryHereLinkOfImplimentLink" finished-at="2023-10-08T16:07:48 EDT" depends-on-methods="pages.LinkedListTest.implimentLinkListInPython" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereLinkOfImplimentLink -->
+        <test-method signature="TextboxToEnterTheCode_PythonLinkedList()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:48 EDT" name="TextboxToEnterTheCode_PythonLinkedList" finished-at="2023-10-08T16:07:48 EDT" depends-on-methods="pages.LinkedListTest.TryHereLinkOfImplimentLink" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextboxToEnterTheCode_PythonLinkedList -->
+        <test-method signature="TraversalLink()[pri:5, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:48 EDT" name="TraversalLink" finished-at="2023-10-08T16:07:48 EDT" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TraversalLink -->
+        <test-method signature="TryHereLinkOfTraversal()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:48 EDT" name="TryHereLinkOfTraversal" finished-at="2023-10-08T16:07:49 EDT" depends-on-methods="pages.LinkedListTest.TraversalLink" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereLinkOfTraversal -->
+        <test-method signature="TextboxToEnterTheCode_Traversal()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:49 EDT" name="TextboxToEnterTheCode_Traversal" finished-at="2023-10-08T16:07:49 EDT" depends-on-methods="pages.LinkedListTest.TryHereLinkOfTraversal" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextboxToEnterTheCode_Traversal -->
+        <test-method signature="InsertionLink()[pri:6, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:49 EDT" name="InsertionLink" finished-at="2023-10-08T16:07:50 EDT" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsertionLink -->
+        <test-method signature="TryHereLinkOfInsertion()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:50 EDT" name="TryHereLinkOfInsertion" finished-at="2023-10-08T16:07:50 EDT" depends-on-methods="pages.LinkedListTest.InsertionLink" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereLinkOfInsertion -->
+        <test-method signature="TextboxToEnterTheCode_Insertion()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:50 EDT" name="TextboxToEnterTheCode_Insertion" finished-at="2023-10-08T16:07:50 EDT" depends-on-methods="pages.LinkedListTest.TryHereLinkOfInsertion" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextboxToEnterTheCode_Insertion -->
+        <test-method signature="DeletionLink()[pri:7, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:50 EDT" name="DeletionLink" finished-at="2023-10-08T16:07:51 EDT" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletionLink -->
+        <test-method signature="TryHereLinkOfDeletion()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:51 EDT" name="TryHereLinkOfDeletion" finished-at="2023-10-08T16:07:52 EDT" depends-on-methods="pages.LinkedListTest.DeletionLink" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryHereLinkOfDeletion -->
+        <test-method signature="TextboxToEnterTheCode_Deletion()[pri:0, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:52 EDT" name="TextboxToEnterTheCode_Deletion" finished-at="2023-10-08T16:07:52 EDT" depends-on-methods="pages.LinkedListTest.TryHereLinkOfDeletion" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextboxToEnterTheCode_Deletion -->
+        <test-method signature="PracticeQuestionLink()[pri:8, instance:pages.LinkedListTest@50f40653]" started-at="2023-10-08T16:07:52 EDT" name="PracticeQuestionLink" finished-at="2023-10-08T16:07:52 EDT" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeQuestionLink -->
+      </class> <!-- pages.LinkedListTest -->
+    </test> <!-- DsAlgoTest -->
+  </suite> <!-- DsAlgoSuite -->
 </testng-results>
