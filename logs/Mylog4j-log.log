@@ -1,0 +1,517 @@
+[INFO ]2023-10-04 22:09:14.557[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-04 22:09:14.923[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-04 22:09:14.924[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-04 22:15:52.794[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-04 22:15:53.266[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-10-04 22:15:54.837[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-10-04 22:15:55.986[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-10-04 22:15:56.729[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-10-04 22:15:57.218[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-10-04 22:15:57.688[main]LoggerLoad-User can click on Basic Operations in List
+[INFO ]2023-10-04 22:15:58.185[main]LoggerLoad-User can click on Try Here Link of Basic Operations in List
+[INFO ]2023-10-04 22:15:58.637[main]LoggerLoad-User can click on Application of Array
+[INFO ]2023-10-04 22:15:59.133[main]LoggerLoad-User can click on Try Here Link of Application of Array
+[INFO ]2023-10-04 22:16:00.184[main]LoggerLoad-User can click on Search the Array link in Practice Question
+[INFO ]2023-10-04 22:16:00.712[main]LoggerLoad-User can click on Max Consicutive Ones
+[INFO ]2023-10-04 22:16:01.436[main]LoggerLoad-User can click on FindNumbers with Even Number Of Digits
+[INFO ]2023-10-04 22:16:01.965[main]LoggerLoad-User can click on Squares of Sorted Array
+[INFO ]2023-10-04 22:16:03.197[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-04 22:16:03.535[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-04 22:16:03.536[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-04 22:16:14.947[main]LoggerLoad-Data Structure page opened
+[INFO ]2023-10-04 22:16:15.366[main]LoggerLoad-Time Complexity page opened
+[INFO ]2023-10-04 22:16:15.686[main]LoggerLoad-Practice Question page opened
+[INFO ]2023-10-04 22:16:16.976[main]LoggerLoad-Try Here page opened
+[INFO ]2023-10-04 22:16:21.524[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-04 22:16:24.164[main]LoggerLoad-User can click the link
+[INFO ]2023-10-04 22:16:25.509[main]LoggerLoad-User can click the link
+[INFO ]2023-10-04 22:17:05.893[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-04 22:17:06.469[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-04 22:17:06.469[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-04 22:17:18.451[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-04 22:17:20.131[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-04 22:19:14.874[TestNG-test=Module-3]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-04 22:19:14.874[TestNG-test=Module-5]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-04 22:19:15.690[TestNG-test=Module-5]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-04 22:19:15.696[TestNG-test=Module-5]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-04 22:19:15.722[TestNG-test=Module-3]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-04 22:19:15.724[TestNG-test=Module-3]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-04 22:19:16.289[TestNG-test=Module-4]LoggerLoad-User can click the link
+[INFO ]2023-10-04 22:19:16.310[TestNG-test=Module-1]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-04 22:19:20.458[TestNG-test=Module-1]LoggerLoad-Clicked on the link
+[INFO ]2023-10-04 22:19:21.358[TestNG-test=Module-1]LoggerLoad-Entered username
+[INFO ]2023-10-04 22:19:21.677[TestNG-test=Module-1]LoggerLoad-Password entry
+[INFO ]2023-10-04 22:19:21.857[TestNG-test=Module-1]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-04 22:19:24.867[TestNG-test=Module-1]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-04 22:19:26.635[TestNG-test=Module-1]LoggerLoad-Clicked on the link
+[INFO ]2023-10-04 22:19:27.279[TestNG-test=Module-1]LoggerLoad-Entered username
+[INFO ]2023-10-04 22:19:27.480[TestNG-test=Module-1]LoggerLoad-Password entry
+[INFO ]2023-10-04 22:19:27.593[TestNG-test=Module-1]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-04 22:19:31.317[TestNG-test=Module-3]LoggerLoad-Data Structure page opened
+[INFO ]2023-10-04 22:19:31.770[TestNG-test=Module-3]LoggerLoad-Time Complexity page opened
+[INFO ]2023-10-04 22:19:32.194[TestNG-test=Module-3]LoggerLoad-Practice Question page opened
+[INFO ]2023-10-04 22:19:33.618[TestNG-test=Module-3]LoggerLoad-Try Here page opened
+[INFO ]2023-10-04 22:19:57.941[TestNG-test=Module-2]LoggerLoad-User can click on Max Consicutive Ones
+[INFO ]2023-10-04 22:19:58.790[TestNG-test=Module-2]LoggerLoad-User can click on FindNumbers with Even Number Of Digits
+[INFO ]2023-10-04 22:19:59.673[TestNG-test=Module-2]LoggerLoad-User can click on Squares of Sorted Array
+[INFO ]2023-10-04 22:20:12.369[TestNG-test=Module-2]LoggerLoad-User can click on Search the Array link in Practice Question
+[INFO ]2023-10-06 16:03:06.299[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-06 16:03:06.786[main]LoggerLoad-Data Structure page opened
+[INFO ]2023-10-06 16:03:07.157[main]LoggerLoad-Time Complexity page opened
+[INFO ]2023-10-06 16:03:08.898[main]LoggerLoad-User can click on Try Here Link of DataStrcture
+[INFO ]2023-10-06 16:03:09.938[main]LoggerLoad-Practice Question page opened
+[INFO ]2023-10-06 17:17:48.711[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-06 17:17:49.100[main]LoggerLoad-Data Structure page opened
+[INFO ]2023-10-06 17:17:49.491[main]LoggerLoad-Time Complexity page opened
+[INFO ]2023-10-06 17:17:51.401[main]LoggerLoad-User can click on Try Here Link of DataStrcture
+[INFO ]2023-10-06 17:17:52.474[main]LoggerLoad-Practice Question page opened
+[INFO ]2023-10-06 17:51:12.892[TestNG-test=Module-1]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-06 17:51:14.774[TestNG-test=Module-1]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-06 17:51:20.086[TestNG-test=Module-1]LoggerLoad-Clicked on the link
+[INFO ]2023-10-06 17:51:20.962[TestNG-test=Module-1]LoggerLoad-Entered username
+[INFO ]2023-10-06 17:51:21.276[TestNG-test=Module-1]LoggerLoad-Password entry
+[INFO ]2023-10-06 17:51:21.433[TestNG-test=Module-1]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-06 17:51:22.182[TestNG-test=Module-8]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-06 17:51:22.651[TestNG-test=Module-9]LoggerLoad-Data Structure page opened
+[INFO ]2023-10-06 17:51:23.129[TestNG-test=Module-10]LoggerLoad-Time Complexity page opened
+[INFO ]2023-10-06 17:51:25.337[TestNG-test=Module-11]LoggerLoad-User can click on Try Here Link of DataStrcture
+[INFO ]2023-10-06 17:51:25.697[TestNG-test=Module-5]LoggerLoad-User can click the link
+[INFO ]2023-10-06 17:51:27.109[TestNG-test=Module-13]LoggerLoad-Practice Question page opened
+[INFO ]2023-10-06 17:52:38.676[TestNG-test=Module-1]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-06 17:52:39.330[TestNG-test=Module-1]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-06 17:52:40.989[TestNG-test=Module-1]LoggerLoad-Clicked on the link
+[INFO ]2023-10-06 17:52:41.407[TestNG-test=Module-1]LoggerLoad-Entered username
+[INFO ]2023-10-06 17:52:41.499[TestNG-test=Module-1]LoggerLoad-Password entry
+[INFO ]2023-10-06 17:52:41.626[TestNG-test=Module-1]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-06 17:55:11.737[TestNG-test=Module-1]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-06 17:55:12.143[TestNG-test=Module-1]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-06 17:55:13.340[TestNG-test=Module-1]LoggerLoad-Clicked on the link
+[INFO ]2023-10-06 17:55:13.803[TestNG-test=Module-1]LoggerLoad-Entered username
+[INFO ]2023-10-06 17:55:13.945[TestNG-test=Module-1]LoggerLoad-Password entry
+[INFO ]2023-10-06 17:55:14.098[TestNG-test=Module-1]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-06 21:11:32.695[TestNG-test=Module-1]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-06 21:11:33.558[TestNG-test=Module-1]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-06 21:11:34.428[TestNG-test=Module-1]LoggerLoad-Clicked on the link
+[INFO ]2023-10-06 21:11:34.906[TestNG-test=Module-1]LoggerLoad-Entered username
+[INFO ]2023-10-06 21:11:35.069[TestNG-test=Module-1]LoggerLoad-Password entry
+[INFO ]2023-10-06 21:11:35.239[TestNG-test=Module-1]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-06 21:14:01.352[TestNG-test=Module-1]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-06 21:14:01.883[TestNG-test=Module-1]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-06 21:14:02.822[TestNG-test=Module-1]LoggerLoad-Clicked on the link
+[INFO ]2023-10-06 21:14:03.376[TestNG-test=Module-1]LoggerLoad-Entered username
+[INFO ]2023-10-06 21:14:03.584[TestNG-test=Module-1]LoggerLoad-Password entry
+[INFO ]2023-10-06 21:14:03.773[TestNG-test=Module-1]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-06 21:17:17.945[main]LoggerLoad------Testing Info----
+[WARN ]2023-10-06 21:17:18.053[main]LoggerLoad------Testing Warn---
+[ERROR]2023-10-06 21:17:18.054[main]LoggerLoad-----Testing Error----
+[INFO ]2023-10-06 21:17:23.315[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-06 21:18:12.094[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-06 21:18:13.650[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-06 21:18:15.180[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-06 21:18:15.666[main]LoggerLoad-Entered username
+[INFO ]2023-10-06 21:18:15.917[main]LoggerLoad-Password entry
+[INFO ]2023-10-06 21:18:16.093[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-06 21:23:16.976[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-06 21:23:17.452[main]LoggerLoad-Data Structure page opened
+[INFO ]2023-10-06 21:23:18.020[main]LoggerLoad-Time Complexity page opened
+[INFO ]2023-10-06 21:23:21.177[main]LoggerLoad-User can click on Try Here Link of DataStrcture
+[INFO ]2023-10-06 21:23:22.427[main]LoggerLoad-Practice Question page opened
+[INFO ]2023-10-08 10:36:56.009[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 10:36:56.790[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 10:36:58.409[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 10:36:58.858[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 10:36:58.955[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 10:36:59.051[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 10:38:06.699[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 10:38:07.139[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 10:38:08.230[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 10:38:08.528[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 10:38:08.633[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 10:38:08.753[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 10:52:39.694[TestNG-test=Test-1]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 10:53:26.357[TestNG-test=Test-1]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 10:53:28.388[TestNG-test=Test-1]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 10:53:38.733[TestNG-test=Test-2]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 10:54:42.643[TestNG-test=Test-1]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 10:54:52.407[TestNG-test=Test-1]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 10:55:43.212[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 10:55:45.725[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 10:55:47.026[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 10:55:47.359[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 10:55:47.464[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 10:55:47.587[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 11:01:24.581[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 11:01:26.253[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 11:01:28.305[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 11:01:28.646[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 11:01:28.750[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 11:01:28.875[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 11:02:22.158[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 11:02:28.721[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 11:03:29.341[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 11:03:31.273[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 11:03:32.978[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 11:03:33.273[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 11:03:33.381[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 11:03:33.505[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 11:03:33.851[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 11:04:06.255[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 11:04:07.323[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 11:04:08.519[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 11:04:08.794[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 11:04:08.904[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 11:04:09.032[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 11:04:09.332[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 12:14:05.206[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 12:14:05.711[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 12:14:07.457[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 12:14:07.810[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 12:14:07.925[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 12:14:08.040[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 12:14:08.359[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 12:14:08.891[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 12:15:04.311[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 12:15:04.840[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 12:15:07.616[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 12:15:07.974[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 12:15:08.097[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 12:15:08.235[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 12:15:08.823[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 12:15:09.345[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 12:15:43.620[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 12:15:47.192[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 12:18:05.930[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 12:18:19.565[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 12:18:20.248[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 12:18:20.248[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 12:18:56.679[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 12:18:57.213[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 12:18:59.433[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 12:18:59.963[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 12:19:00.069[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 12:19:00.183[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 12:19:00.589[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 12:19:02.246[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 12:19:02.669[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 12:19:02.670[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 12:39:15.831[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 12:39:16.329[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 12:39:18.581[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 12:39:18.937[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 12:39:19.037[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 12:39:19.158[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 12:39:19.588[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 12:39:21.416[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 12:39:21.740[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 12:39:21.740[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 12:40:46.895[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 12:40:47.419[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 12:40:49.305[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 12:40:49.638[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 12:40:49.742[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 12:40:49.863[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 12:40:50.247[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 12:40:51.973[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 12:40:52.321[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 12:40:52.322[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 12:40:53.566[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 14:21:04.734[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 14:21:06.231[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 14:21:07.669[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 14:21:08.262[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 14:21:08.439[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 14:21:08.561[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 14:21:08.857[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 14:21:09.679[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 14:21:10.135[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 14:21:10.152[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 14:21:22.106[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 14:21:22.487[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 14:27:45.867[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 14:27:46.541[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 14:27:48.259[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 14:27:48.965[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 14:27:49.152[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 14:27:49.452[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 14:27:49.858[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 14:27:51.287[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 14:27:51.727[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 14:27:51.727[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 14:45:47.535[main]LoggerLoad-Entered to Home test class file
+[INFO ]2023-10-08 14:45:49.439[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 14:55:58.493[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 14:56:27.386[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 14:56:27.410[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 14:56:27.676[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 14:56:28.202[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 14:56:28.617[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 14:56:28.769[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 14:56:28.921[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 14:56:51.887[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 14:56:51.915[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 14:56:52.171[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 14:56:52.631[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 14:56:53.043[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 14:56:53.178[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 14:56:53.301[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 14:57:37.585[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 15:01:24.102[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 15:01:24.987[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 15:01:28.555[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 15:01:29.202[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 15:01:29.373[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 15:01:29.499[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 15:02:51.063[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 15:02:52.456[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 15:02:54.272[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 15:02:54.825[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 15:02:55.001[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 15:02:55.146[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 15:04:44.779[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 15:04:45.913[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 15:04:48.978[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 15:04:49.467[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 15:04:49.644[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 15:04:49.801[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 15:06:08.460[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 15:06:08.892[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 15:06:09.031[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 15:06:09.239[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 15:06:43.887[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 15:06:44.368[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 15:06:44.528[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 15:06:44.706[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 15:14:39.815[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 15:14:40.244[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 15:14:40.387[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 15:14:40.563[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 15:14:41.200[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 15:14:41.201[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 15:32:51.288[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 15:32:51.717[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 15:32:51.863[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 15:32:52.076[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 15:32:52.716[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 15:32:52.718[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 15:36:35.553[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 15:36:36.005[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 15:36:36.157[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 15:36:36.342[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 15:36:36.944[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 15:36:36.945[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 15:39:15.603[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 15:39:16.035[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 15:39:16.174[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 15:39:16.329[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 15:39:17.063[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 15:39:17.064[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 15:39:30.884[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 15:39:31.258[main]LoggerLoad-Data Structure page opened
+[INFO ]2023-10-08 15:39:31.640[main]LoggerLoad-Time Complexity page opened
+[INFO ]2023-10-08 15:39:33.289[main]LoggerLoad-User can click on Try Here Link of DataStrcture
+[INFO ]2023-10-08 15:39:34.585[main]LoggerLoad-Practice Question page opened
+[INFO ]2023-10-08 15:41:50.128[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 15:41:50.586[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 15:41:50.729[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 15:41:50.902[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 15:41:51.479[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 15:41:51.479[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 15:42:05.629[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 15:42:06.064[main]LoggerLoad-Data Structure page opened
+[INFO ]2023-10-08 15:42:06.576[main]LoggerLoad-Time Complexity page opened
+[INFO ]2023-10-08 15:42:09.389[main]LoggerLoad-User can click on Try Here Link of DataStrcture
+[INFO ]2023-10-08 15:42:11.032[main]LoggerLoad-Practice Question page opened
+[INFO ]2023-10-08 15:42:13.637[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 15:42:14.718[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-10-08 15:42:15.793[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-10-08 15:42:16.806[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-10-08 15:42:18.537[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-10-08 15:42:19.391[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-10-08 15:42:22.121[main]LoggerLoad-User can click on Basic Operations in List
+[INFO ]2023-10-08 15:42:22.782[main]LoggerLoad-User can click on Try Here Link of Basic Operations in List
+[INFO ]2023-10-08 15:42:23.975[main]LoggerLoad-User can click on Application of Array
+[INFO ]2023-10-08 15:42:24.666[main]LoggerLoad-User can click on Try Here Link of Application of Array
+[INFO ]2023-10-08 15:45:54.232[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 15:45:54.667[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 15:45:54.819[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 15:45:55.007[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 15:45:55.621[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 15:45:55.623[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 15:46:09.519[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 15:46:10.089[main]LoggerLoad-Data Structure page opened
+[INFO ]2023-10-08 15:46:10.607[main]LoggerLoad-Time Complexity page opened
+[INFO ]2023-10-08 15:46:12.382[main]LoggerLoad-User can click on Try Here Link of DataStrcture
+[INFO ]2023-10-08 15:46:13.674[main]LoggerLoad-Practice Question page opened
+[INFO ]2023-10-08 15:46:16.124[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 15:46:16.972[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-10-08 15:46:17.727[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-10-08 15:46:18.490[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-10-08 15:46:19.840[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-10-08 15:46:20.417[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-10-08 15:46:22.122[main]LoggerLoad-User can click on Basic Operations in List
+[INFO ]2023-10-08 15:46:23.327[main]LoggerLoad-User can click on Try Here Link of Basic Operations in List
+[INFO ]2023-10-08 15:46:25.059[main]LoggerLoad-User can click on Application of Array
+[INFO ]2023-10-08 15:46:25.909[main]LoggerLoad-User can click on Try Here Link of Application of Array
+[INFO ]2023-10-08 15:46:30.028[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 15:46:31.083[main]LoggerLoad-User can click the link
+[INFO ]2023-10-08 15:46:31.841[main]LoggerLoad-User can click the link
+[INFO ]2023-10-08 15:46:49.189[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 15:51:29.761[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 15:51:30.186[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 15:51:30.321[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 15:51:30.477[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 15:51:31.296[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 15:51:31.297[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 15:51:44.967[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 15:51:45.331[main]LoggerLoad-Data Structure page opened
+[INFO ]2023-10-08 15:51:45.692[main]LoggerLoad-Time Complexity page opened
+[INFO ]2023-10-08 15:51:47.310[main]LoggerLoad-User can click on Try Here Link of DataStrcture
+[INFO ]2023-10-08 15:51:48.458[main]LoggerLoad-Practice Question page opened
+[INFO ]2023-10-08 15:51:50.207[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 15:51:51.054[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-10-08 15:51:51.898[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-10-08 15:51:53.115[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-10-08 15:51:55.908[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-10-08 15:51:57.108[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-10-08 15:51:58.988[main]LoggerLoad-User can click on Basic Operations in List
+[INFO ]2023-10-08 15:51:59.752[main]LoggerLoad-User can click on Try Here Link of Basic Operations in List
+[INFO ]2023-10-08 15:52:03.118[main]LoggerLoad-User can click on Application of Array
+[INFO ]2023-10-08 15:52:03.771[main]LoggerLoad-User can click on Try Here Link of Application of Array
+[INFO ]2023-10-08 15:52:06.353[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 15:52:07.609[main]LoggerLoad-User can click the link
+[INFO ]2023-10-08 15:52:08.309[main]LoggerLoad-User can click the link
+[INFO ]2023-10-08 15:52:21.094[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 15:54:38.036[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 15:54:38.232[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 15:54:38.895[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 15:54:39.372[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 15:54:39.522[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 15:54:39.700[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 15:54:40.350[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 15:54:40.350[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 15:54:55.368[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 15:54:56.039[main]LoggerLoad-Data Structure page opened
+[INFO ]2023-10-08 15:54:57.056[main]LoggerLoad-Time Complexity page opened
+[INFO ]2023-10-08 15:54:59.211[main]LoggerLoad-User can click on Try Here Link of DataStrcture
+[INFO ]2023-10-08 15:55:12.909[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 15:55:13.865[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-10-08 15:55:14.429[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-10-08 15:55:15.041[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-10-08 15:55:26.261[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-10-08 15:55:26.983[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-10-08 15:55:38.230[main]LoggerLoad-User can click on Basic Operations in List
+[INFO ]2023-10-08 15:55:39.131[main]LoggerLoad-User can click on Try Here Link of Basic Operations in List
+[INFO ]2023-10-08 15:55:50.291[main]LoggerLoad-User can click on Application of Array
+[INFO ]2023-10-08 15:55:50.894[main]LoggerLoad-User can click on Try Here Link of Application of Array
+[INFO ]2023-10-08 15:56:03.569[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 15:56:05.021[main]LoggerLoad-User can click the link
+[INFO ]2023-10-08 15:56:05.710[main]LoggerLoad-User can click the link
+[INFO ]2023-10-08 15:57:18.562[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 16:22:46.032[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 16:22:46.359[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 16:22:47.019[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 16:22:47.402[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 16:22:47.521[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 16:22:47.677[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 16:22:48.190[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 16:22:48.191[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 16:23:03.027[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 16:23:03.365[main]LoggerLoad-Data Structure page opened
+[INFO ]2023-10-08 16:23:03.801[main]LoggerLoad-Time Complexity page opened
+[INFO ]2023-10-08 16:23:06.011[main]LoggerLoad-User can click on Try Here Link of DataStrcture
+[INFO ]2023-10-08 16:23:19.524[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 16:23:20.040[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-10-08 16:23:20.553[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-10-08 16:23:21.043[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-10-08 16:23:32.136[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-10-08 16:23:32.961[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-10-08 16:23:44.002[main]LoggerLoad-User can click on Basic Operations in List
+[INFO ]2023-10-08 16:23:44.617[main]LoggerLoad-User can click on Try Here Link of Basic Operations in List
+[INFO ]2023-10-08 16:23:55.727[main]LoggerLoad-User can click on Application of Array
+[INFO ]2023-10-08 16:23:56.222[main]LoggerLoad-User can click on Try Here Link of Application of Array
+[INFO ]2023-10-08 16:24:08.643[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 16:24:10.235[main]LoggerLoad-User can click the link
+[INFO ]2023-10-08 16:24:10.977[main]LoggerLoad-User can click the link
+[INFO ]2023-10-08 16:24:36.513[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 16:27:41.354[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 16:27:41.545[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 16:27:42.230[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 16:27:42.649[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 16:27:42.806[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 16:27:42.971[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 16:27:43.578[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 16:27:43.579[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 16:27:56.671[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 16:27:57.051[main]LoggerLoad-Data Structure page opened
+[INFO ]2023-10-08 16:27:57.433[main]LoggerLoad-Time Complexity page opened
+[INFO ]2023-10-08 16:27:59.361[main]LoggerLoad-User can click on Try Here Link of DataStrcture
+[INFO ]2023-10-08 16:28:00.652[main]LoggerLoad-Practice Question page opened
+[INFO ]2023-10-08 16:28:02.992[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 16:28:03.645[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-10-08 16:28:04.687[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-10-08 16:28:05.906[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-10-08 16:28:09.877[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-10-08 16:28:11.045[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-10-08 16:28:14.377[main]LoggerLoad-User can click on Basic Operations in List
+[INFO ]2023-10-08 16:28:16.152[main]LoggerLoad-User can click on Try Here Link of Basic Operations in List
+[INFO ]2023-10-08 16:28:19.430[main]LoggerLoad-User can click on Application of Array
+[INFO ]2023-10-08 16:28:20.439[main]LoggerLoad-User can click on Try Here Link of Application of Array
+[INFO ]2023-10-08 16:28:24.533[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 16:28:25.580[main]LoggerLoad-User can click the link
+[INFO ]2023-10-08 16:28:26.115[main]LoggerLoad-User can click the link
+[INFO ]2023-10-08 16:28:37.999[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 16:43:13.448[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 16:44:11.820[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 16:44:11.982[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 16:44:18.126[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 16:44:18.582[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 16:44:18.720[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 16:44:18.879[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 16:44:19.404[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 16:44:19.404[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 16:44:32.353[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 16:44:32.707[main]LoggerLoad-Data Structure page opened
+[INFO ]2023-10-08 16:44:33.169[main]LoggerLoad-Time Complexity page opened
+[INFO ]2023-10-08 16:44:38.518[main]LoggerLoad-User can click on Try Here Link of DataStrcture
+[INFO ]2023-10-08 16:44:39.823[main]LoggerLoad-Practice Question page opened
+[INFO ]2023-10-08 16:44:42.213[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 16:44:43.669[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-10-08 16:44:44.800[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-10-08 16:44:45.963[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-10-08 16:44:48.142[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-10-08 16:44:48.947[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-10-08 16:44:51.542[main]LoggerLoad-User can click on Basic Operations in List
+[INFO ]2023-10-08 16:44:52.959[main]LoggerLoad-User can click on Try Here Link of Basic Operations in List
+[INFO ]2023-10-08 16:44:54.230[main]LoggerLoad-User can click on Application of Array
+[INFO ]2023-10-08 16:44:54.715[main]LoggerLoad-User can click on Try Here Link of Application of Array
+[INFO ]2023-10-08 16:44:56.757[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 16:44:57.555[main]LoggerLoad-User can click the link
+[INFO ]2023-10-08 16:44:58.277[main]LoggerLoad-User can click the link
+[INFO ]2023-10-08 16:45:10.018[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 23:47:04.514[main]LoggerLoad-Entered to Registeration test class file
+[INFO ]2023-10-08 23:47:04.806[main]LoggerLoad-Website is opened successfully on chrome browser
+[INFO ]2023-10-08 23:47:05.520[main]LoggerLoad-Clicked on the link
+[INFO ]2023-10-08 23:47:06.038[main]LoggerLoad-Entered username
+[INFO ]2023-10-08 23:47:06.196[main]LoggerLoad-Password entry
+[INFO ]2023-10-08 23:47:06.394[main]LoggerLoad-Confirm Password entry
+[INFO ]2023-10-08 23:47:07.499[main]LoggerLoad-Clicked on the login link
+[INFO ]2023-10-08 23:47:07.500[main]LoggerLoad-C:\Users\gagan\eclipse-workspace\DsAlgoPortal\DSAlgoPortal/src/test/resources/UserData/User.xlsx
+[INFO ]2023-10-08 23:47:21.712[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 23:47:22.146[main]LoggerLoad-Data Structure page opened
+[INFO ]2023-10-08 23:47:22.574[main]LoggerLoad-Time Complexity page opened
+[INFO ]2023-10-08 23:47:25.042[main]LoggerLoad-User can click on Try Here Link of DataStrcture
+[INFO ]2023-10-08 23:47:26.396[main]LoggerLoad-Practice Question page opened
+[INFO ]2023-10-08 23:47:29.490[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 23:47:30.287[main]LoggerLoad-User is able to click on the Get started link of the array
+[INFO ]2023-10-08 23:47:31.147[main]LoggerLoad-User can select the link: Array in Python
+[INFO ]2023-10-08 23:47:32.114[main]LoggerLoad-User can click on Try Here Link of Arrays in Python
+[INFO ]2023-10-08 23:47:34.143[main]LoggerLoad-User can click on: Arrays Using List
+[INFO ]2023-10-08 23:47:34.954[main]LoggerLoad-User can click on Try Here Link of Arrays Using List
+[INFO ]2023-10-08 23:47:36.599[main]LoggerLoad-User can click on Basic Operations in List
+[INFO ]2023-10-08 23:47:37.593[main]LoggerLoad-User can click on Try Here Link of Basic Operations in List
+[INFO ]2023-10-08 23:47:38.980[main]LoggerLoad-User can click on Application of Array
+[INFO ]2023-10-08 23:47:39.720[main]LoggerLoad-User can click on Try Here Link of Application of Array
+[INFO ]2023-10-08 23:47:42.379[main]LoggerLoad-User logged in to the website successfully
+[INFO ]2023-10-08 23:47:43.468[main]LoggerLoad-User can click the link
+[INFO ]2023-10-08 23:47:44.098[main]LoggerLoad-User can click the link
+[INFO ]2023-10-08 23:47:56.572[main]LoggerLoad-User logged in to the website successfully
