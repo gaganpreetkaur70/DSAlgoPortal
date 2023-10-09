@@ -1,4 +1,4 @@
-package module1;
+package pages;
 
 import java.time.Duration;
 
@@ -12,13 +12,9 @@ import org.testng.annotations.Test;
 
 import dsutilities.LoggerLoad;
 
-public class GraphTest {
-	static WebDriver driver=new ChromeDriver();
-	@BeforeTest
-	public void OpenBrowser() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\reshm\\eclipse-workspace\\DSAlgoAppTestNG\\src\\test\\resources\\driver\\chromedriver.exe");
-			
-	}
+public class GraphTest extends HomeTest {
+	
+	
     @Test(priority=1)	
 	public void OpenWebsite() {
 		String url="https://dsportalapp.herokuapp.com/";
@@ -110,5 +106,17 @@ public class GraphTest {
 		WebElement btnRun=driver.findElement(By.xpath("//button[@type='button']"));
 		btnRun.click();
     }
-
+  @Test(priority=2)
+    public void PracticeQuestion_Graph() {
+    	String url="https://dsportalapp.herokuapp.com/graph/graph-representations/";
+    	driver.get(url);
+    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    	WebElement PracticeQuest=driver.findElement(By.linkText("Practice Questions"));
+    	PracticeQuest.click();
+    }
+  
+  @Test (dependsOnMethods = "PracticeQuestion_Graph")
+  public void closeBrowser() {
+	  driver.close();
+  }
 }

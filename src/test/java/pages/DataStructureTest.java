@@ -1,4 +1,4 @@
-package module1;
+package pages;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -18,48 +18,43 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import dsutilities.LoggerLoad;
 
-	public class DataStructureTest {
-		static WebDriver driver=new ChromeDriver();
-		@BeforeTest
-		public void OpenBrowser() {
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\reshm\\eclipse-workspace\\DSAlgoAppTestNG\\src\\test\\resources\\driver\\chromedriver.exe");
-				
-		}
-	    @Test(priority=1)	
-		public void OpenWebsite() {
-			String url="https://dsportalapp.herokuapp.com/";
-			driver.get(url);
-			driver.manage().window().maximize();
-		}
-	    @Test(dependsOnMethods="OpenWebsite")
-	    public void GetStartedLink() {
-	    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	        WebElement GetStarted=driver.findElement(By.xpath("//button[@class='btn']"));
-	        GetStarted.click();
-	    }
-	    @Test(dependsOnMethods="GetStartedLink")
-	    public void SignInLink() {
-	    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	    	WebElement SignIn= driver.findElement(By.partialLinkText("Sign"));
-			SignIn.click();
-	    }
+	public class DataStructureTest extends HomeTest{
 	
+		   @Test(priority=1)	
+			public void OpenWebsite() {
+				String url="https://dsportalapp.herokuapp.com/";
+				driver.get(url);
+				driver.manage().window().maximize();
+			}
+		    @Test(dependsOnMethods="OpenWebsite")
+		    public void GetStartedLink() {
+		    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		        WebElement GetStarted=driver.findElement(By.xpath("//button[@class='btn']"));
+		        GetStarted.click();
+		    }
+		    @Test(dependsOnMethods="GetStartedLink")
+		    public void SignInLink() {
+		    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		    	WebElement SignIn= driver.findElement(By.partialLinkText("Sign"));
+				SignIn.click();
+		    }
+		
+		
+	 @Test(dependsOnMethods="SignInLink")
+	 public void login() {
+	 	String url="https://dsportalapp.herokuapp.com/login";
+	 	driver.get(url);
+	 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	 	WebElement unametextbox=driver.findElement(By.id("id_username"));
+			unametextbox.sendKeys("abc123@gmail.com");
+			WebElement passwdtextbox=driver.findElement(By.id("id_password"));
+			passwdtextbox.sendKeys("Aaa@1234");
+			WebElement LoginButton=driver.findElement(By.xpath("//div//form//input[@type='submit']"));
+			LoginButton.click();
+			LoggerLoad.info("User logged in to the website successfully");
+	 }
 	
- @Test(dependsOnMethods="SignInLink")
- public void login() {
- 	String url="https://dsportalapp.herokuapp.com/login";
- 	driver.get(url);
- 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
- 	WebElement unametextbox=driver.findElement(By.id("id_username"));
-		unametextbox.sendKeys("abc123@gmail.com");
-		WebElement passwdtextbox=driver.findElement(By.id("id_password"));
-		passwdtextbox.sendKeys("Aaa@1234");
-		WebElement LoginButton=driver.findElement(By.xpath("//div//form//input[@type='submit']"));
-		LoginButton.click();
-		LoggerLoad.info("User logged in to the website successfully");
- }
-	
-	@Test (dependsOnMethods="login")
+	@Test (dependsOnMethods="OpenWebsite")
 	public void openDataStructure() {
 		
 		 driver.findElement(By.xpath("//div[3]/div/div/div/a")).click();

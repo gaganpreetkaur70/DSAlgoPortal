@@ -1,4 +1,4 @@
-package module1;
+package pages;
 
 import org.testng.annotations.Test;
 import java.io.File;
@@ -18,21 +18,9 @@ import org.testng.annotations.Test;
 
 import dsutilities.LoggerLoad;
 
-public class LoginTest {
-	static WebDriver driver=new ChromeDriver();
+public class LoginTest extends HomeTest {
 	
-	
-@Test (priority=1)
-public void openwebsite() {
-	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"src/test/resources/driver/chromedriver.exe");
-    
-    String url="https://dsportalapp.herokuapp.com/home";
-    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-    driver.get(url);
-    LoggerLoad.info("Website is opened successfully on chrome browser");
-}
-
-@Test (priority = 2)
+@Test
 public void login() throws IOException, InterruptedException {
 	
 	WebElement login = driver.findElement(By.linkText("Sign in"));
@@ -75,13 +63,6 @@ public void login() throws IOException, InterruptedException {
 	
 }
 
-@Test
-(priority = 3)
-public void logut() {
-	
-	driver.findElement(By.xpath("//ul/a[3]")).click();
-
-}
 
 
 

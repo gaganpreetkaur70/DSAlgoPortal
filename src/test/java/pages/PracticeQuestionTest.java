@@ -1,4 +1,4 @@
-package module1;
+package pages;
 
 import java.time.Duration;
 
