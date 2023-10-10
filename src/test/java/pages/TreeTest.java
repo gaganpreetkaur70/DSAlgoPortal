@@ -8,13 +8,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TreeTest {
-	public WebDriver driver;
+public class TreeTest extends HomeTest {
 	
-@BeforeTest
+	
+@Test (priority = 1)
 public void launchBrowser() {
 	System.out.println("launching Chrome browser");
-	driver = new ChromeDriver();
+	
 	String url = "https://dsportalapp.herokuapp.com/";
 	driver.get(url);
 	WebElement GetStartedLink = driver.findElement(By.linkText("Get Started"));
@@ -30,40 +30,23 @@ public void launchBrowser() {
 	
 }
 
-  @Test (priority = 1)
+  @Test (priority = 2)
 	  public void Treelink() {
 	  WebElement GetStartedTreeLink = driver.findElement(By.xpath("//a[@href='tree']"));
 	  GetStartedTreeLink.click();
 	  WebElement OverviewLink=driver.findElement(By.partialLinkText("Trees"));
 	  OverviewLink.click();
-	  try {
-		Thread.sleep(5000);
-	} catch (InterruptedException e) {
-		e.printStackTrace();
-	}
 	  WebElement Tryhere=driver.findElement(By.partialLinkText("here"));
 	  Tryhere.click();
 	  WebElement Editorbox = driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
 	  Editorbox.sendKeys("print(\"Hello world\")");
-      try {
-		Thread.sleep(5000);
-	} catch (InterruptedException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
       WebElement Runbutton = driver.findElement(By.xpath("//button[@type='button']"));
       Runbutton.click();
-      try {
-		Thread.sleep(5000);
-	} catch (InterruptedException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
       driver.navigate().back();
   }
   
   
-  @Test (priority = 2)
+  @Test (dependsOnMethods = "Treelink")
   public void Terminologieslink() {
   WebElement Tlink = driver.findElement(By.xpath("//a[normalize-space()='Terminologies']"));
   Tlink.click();
@@ -71,12 +54,6 @@ public void launchBrowser() {
   Tryhere.click();
   WebElement Editorbox = driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
   Editorbox.sendKeys("print(\"Hello world\")");
-  try {
-	Thread.sleep(5000);
-} catch (InterruptedException e) {
-	// TODO Auto-generated catch block
-	e.printStackTrace();
-}
   WebElement Runbutton = driver.findElement(By.xpath("//button[@type='button']"));
   Runbutton.click();
   driver.navigate().back();
@@ -92,12 +69,6 @@ WebElement Tryhere=driver.findElement(By.partialLinkText("here"));
 Tryhere.click();
 WebElement Editorbox = driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
 Editorbox.sendKeys("print(\"Hello world\")");
-try {
-	Thread.sleep(5000);
-} catch (InterruptedException e) {
-	// TODO Auto-generated catch block
-	e.printStackTrace();
-}
 WebElement Runbutton = driver.findElement(By.xpath("//button[@type='button']"));
 Runbutton.click();
 driver.navigate().back();
@@ -113,12 +84,6 @@ WebElement Tryhere=driver.findElement(By.partialLinkText("here"));
 Tryhere.click();
 WebElement Editorbox = driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
 Editorbox.sendKeys("print(\"Hello world\")");
-try {
-	Thread.sleep(5000);
-} catch (InterruptedException e) {
-	// TODO Auto-generated catch block
-	e.printStackTrace();
-}
 WebElement Runbutton = driver.findElement(By.xpath("//button[@type='button']"));
 Runbutton.click();
 driver.navigate().back();
@@ -132,12 +97,6 @@ WebElement Tryhere=driver.findElement(By.partialLinkText("here"));
 Tryhere.click();
 WebElement Editorbox = driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
 Editorbox.sendKeys("print(\"Hello world\")");
-try {
-	Thread.sleep(5000);
-} catch (InterruptedException e) {
-	// TODO Auto-generated catch block
-	e.printStackTrace();
-}
 WebElement Runbutton = driver.findElement(By.xpath("//button[@type='button']"));
 Runbutton.click();
 driver.navigate().back();
@@ -152,12 +111,6 @@ WebElement Tryhere=driver.findElement(By.partialLinkText("here"));
 Tryhere.click();
 WebElement Editorbox = driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
 Editorbox.sendKeys("print(\"Hello world\")");
-try {
-	Thread.sleep(5000);
-} catch (InterruptedException e) {
-	// TODO Auto-generated catch block
-	e.printStackTrace();
-}
 WebElement Runbutton = driver.findElement(By.xpath("//button[@type='button']"));
 Runbutton.click();
 driver.navigate().back();
@@ -172,12 +125,6 @@ WebElement Tryhere=driver.findElement(By.partialLinkText("here"));
 Tryhere.click();
 WebElement Editorbox = driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
 Editorbox.sendKeys("print(\"Hello world\")");
-try {
-	Thread.sleep(5000);
-} catch (InterruptedException e) {
-	// TODO Auto-generated catch block
-	e.printStackTrace();
-}
 WebElement Runbutton = driver.findElement(By.xpath("//button[@type='button']"));
 Runbutton.click();
 driver.navigate().back();
@@ -190,12 +137,6 @@ WebElement Tryhere=driver.findElement(By.partialLinkText("here"));
 Tryhere.click();
 WebElement Editorbox = driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
 Editorbox.sendKeys("print(\"Hello world\")");
-try {
-	Thread.sleep(5000);
-} catch (InterruptedException e) {
-	// TODO Auto-generated catch block
-	e.printStackTrace();
-}
 WebElement Runbutton = driver.findElement(By.xpath("//button[@type='button']"));
 Runbutton.click();
 driver.navigate().back();
@@ -209,12 +150,6 @@ WebElement Tryhere=driver.findElement(By.partialLinkText("here"));
 Tryhere.click();
 WebElement Editorbox = driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
 Editorbox.sendKeys("print(\"Hello world\")");
-try {
-	Thread.sleep(5000);
-} catch (InterruptedException e) {
-	// TODO Auto-generated catch block
-	e.printStackTrace();
-}
 WebElement Runbutton = driver.findElement(By.xpath("//button[@type='button']"));
 Runbutton.click();
 driver.navigate().back();
@@ -230,12 +165,6 @@ WebElement Tryhere=driver.findElement(By.partialLinkText("here"));
 Tryhere.click();
 WebElement Editorbox = driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
 Editorbox.sendKeys("print(\"Hello world\")");
-try {
-	Thread.sleep(5000);
-} catch (InterruptedException e) {
-	// TODO Auto-generated catch block
-	e.printStackTrace();
-}
 WebElement Runbutton = driver.findElement(By.xpath("//button[@type='button']"));
 Runbutton.click();
 driver.navigate().back();
@@ -249,12 +178,6 @@ WebElement Tryhere=driver.findElement(By.partialLinkText("here"));
 Tryhere.click();
 WebElement Editorbox = driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
 Editorbox.sendKeys("print(\"Hello world\")");
-try {
-	Thread.sleep(5000);
-} catch (InterruptedException e) {
-	// TODO Auto-generated catch block
-	e.printStackTrace();
-}
 WebElement Runbutton = driver.findElement(By.xpath("//button[@type='button']"));
 Runbutton.click();
 driver.navigate().back();
@@ -268,12 +191,6 @@ WebElement Tryhere=driver.findElement(By.partialLinkText("here"));
 Tryhere.click();
 WebElement Editorbox = driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
 Editorbox.sendKeys("print(\"Hello world\")");
-try {
-	Thread.sleep(5000);
-} catch (InterruptedException e) {
-	// TODO Auto-generated catch block
-	e.printStackTrace();
-}
 WebElement Runbutton = driver.findElement(By.xpath("//button[@type='button']"));
 Runbutton.click();
 driver.navigate().back();
@@ -287,22 +204,13 @@ WebElement Tryhere=driver.findElement(By.partialLinkText("here"));
 Tryhere.click();
 WebElement Editorbox = driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
 Editorbox.sendKeys("print(\"Hello world\")");
-try {
-	Thread.sleep(5000);
-} catch (InterruptedException e) {
-	// TODO Auto-generated catch block
-	e.printStackTrace();
-}
 WebElement Runbutton = driver.findElement(By.xpath("//button[@type='button']"));
 Runbutton.click();
 driver.navigate().back();
 }
 
 
-@AfterTest
-public void endTest() {
-	  driver.quit();
-}
+
 }
 
 
