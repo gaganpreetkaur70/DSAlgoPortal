@@ -11,6 +11,7 @@
 		 <class name="pages.PracticeQuestionTest"/>
 		 <class name="pages.LinkedListTest"/>
 		 <class name="pages.StackTest"/>
+		  <class name="pages.QueueTest"/>
 		 <class name="pages.TreeTest"/>			 
 		 <class name="pages.GraphTest"/>
     </classes>     

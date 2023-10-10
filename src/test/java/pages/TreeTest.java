@@ -1,9 +1,16 @@
 package pages;
 
 import org.testng.annotations.Test;
+
+import dsutilities.LoggerLoad;
+
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+
+import java.time.Duration;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,27 +18,43 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TreeTest extends HomeTest {
 	
 	
-@Test (priority = 1)
-public void launchBrowser() {
-	System.out.println("launching Chrome browser");
-	
-	String url = "https://dsportalapp.herokuapp.com/";
-	driver.get(url);
-	WebElement GetStartedLink = driver.findElement(By.linkText("Get Started"));
-	GetStartedLink.click();
-	WebElement login = driver.findElement(By.linkText("Sign in"));
-	login.click();
-	WebElement username=driver.findElement(By.id("id_username"));
-	username.sendKeys("testdsalgo18@gmail.com");
-	WebElement password=driver.findElement(By.id("id_password"));
-	password.sendKeys("Test1237@");
-	WebElement LoginButton=driver.findElement(By.xpath("//div//form//input[@type='submit']"));
-	LoginButton.click();
-	
-}
+
+    @Test(priority=1)	
+	public void OpenWebsite() {
+		String url="https://dsportalapp.herokuapp.com/";
+		driver.get(url);
+		driver.manage().window().maximize();
+	}
+    @Test(dependsOnMethods="OpenWebsite")
+    public void GetStartedLink() {
+    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        WebElement GetStarted=driver.findElement(By.xpath("//button[@class='btn']"));
+        GetStarted.click();
+    }
+    @Test(dependsOnMethods="GetStartedLink")
+    public void SignInLink() {
+    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    	WebElement SignIn= driver.findElement(By.partialLinkText("Sign"));
+		SignIn.click();
+    }
+    @Test(dependsOnMethods="SignInLink")
+    public void login() {
+    	String url="https://dsportalapp.herokuapp.com/login";
+    	driver.get(url);
+    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    	WebElement unametextbox=driver.findElement(By.id("id_username"));
+		unametextbox.sendKeys("abc123@gmail.com");
+		WebElement passwdtextbox=driver.findElement(By.id("id_password"));
+		passwdtextbox.sendKeys("Aaa@1234");
+		WebElement LoginButton=driver.findElement(By.xpath("//div//form//input[@type='submit']"));
+		LoginButton.click();
+		LoggerLoad.info("User logged in to the website successfully");
+    }
 
   @Test (priority = 2)
 	  public void Treelink() {
+	  JavascriptExecutor js1=(JavascriptExecutor)driver;
+		js1.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 	  WebElement GetStartedTreeLink = driver.findElement(By.xpath("//a[@href='tree']"));
 	  GetStartedTreeLink.click();
 	  WebElement OverviewLink=driver.findElement(By.partialLinkText("Trees"));
@@ -78,8 +101,12 @@ driver.navigate().back();
 
 @Test (priority = 4)
 public void Treetraverse() {
+	JavascriptExecutor js1=(JavascriptExecutor)driver;
+	js1.executeScript("window.scrollTo(0,document.body.scrollHeight)");	
 WebElement Tlink2 = driver.findElement(By.xpath("//a[normalize-space()='Tree Traversals']"));
 Tlink2.click();
+JavascriptExecutor js2=(JavascriptExecutor)driver;
+js2.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 WebElement Tryhere=driver.findElement(By.partialLinkText("here"));
 Tryhere.click();
 WebElement Editorbox = driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));
@@ -91,8 +118,12 @@ driver.navigate().back();
 
 @Test (priority = 5)
 public void Traverseillus() {
+	JavascriptExecutor js1=(JavascriptExecutor)driver;
+	js1.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 WebElement Tlink3 = driver.findElement(By.xpath("//a[normalize-space()='Traversals-Illustration']"));
 Tlink3.click();
+JavascriptExecutor js2=(JavascriptExecutor)driver;
+js2.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 WebElement Tryhere=driver.findElement(By.partialLinkText("here"));
 Tryhere.click();
 WebElement Editorbox = driver.findElement(By.xpath("//form[@id='answer_form']//div//div//div//textarea"));

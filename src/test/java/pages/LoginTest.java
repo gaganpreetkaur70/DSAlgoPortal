@@ -22,8 +22,9 @@ public class LoginTest extends HomeTest {
 	
 @Test
 public void login() throws IOException, InterruptedException {
-	
-	WebElement login = driver.findElement(By.linkText("Sign in"));
+	String url="https://dsportalapp.herokuapp.com/home";
+	driver.get(url);
+	WebElement login = driver.findElement(By.partialLinkText("Sign"));
 	login.click();
 	LoggerLoad.info("Clicked on the login link");	
 	

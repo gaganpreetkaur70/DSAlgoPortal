@@ -24,6 +24,7 @@ public class HomeTest {
 	public void OpenWebsite() {
 		String url="https://dsportalapp.herokuapp.com/";
 		driver.get(url);
+		driver.manage().window().maximize();
 		
 	}
    

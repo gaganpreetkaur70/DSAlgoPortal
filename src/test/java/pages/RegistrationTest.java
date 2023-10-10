@@ -40,7 +40,7 @@ public class RegistrationTest extends HomeTest {
 		WebElement registerLink = driver.findElement(By.linkText("Register"));
 		registerLink.click();
 	    try {
-            Thread.sleep(5000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
