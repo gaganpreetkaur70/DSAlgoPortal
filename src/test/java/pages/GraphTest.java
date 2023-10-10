@@ -114,8 +114,16 @@ public class GraphTest extends HomeTest {
     	WebElement PracticeQuest=driver.findElement(By.linkText("Practice Questions"));
     	PracticeQuest.click();
     }
+  @Test(priority=3)
+  public void signout() {
+	  String url="https://dsportalapp.herokuapp.com/home";
+	  driver.get(url);
+	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	  WebElement SignOut=driver.findElement(By.linkText("Sign out"));
+	  SignOut.click();
+  }
   
-  @Test (dependsOnMethods = "PracticeQuestion_Graph")
+  @Test(dependsOnMethods="signout")
   public void closeBrowser() {
 	  driver.close();
   }
