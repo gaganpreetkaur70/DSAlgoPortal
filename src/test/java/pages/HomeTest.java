@@ -15,14 +15,14 @@ public class HomeTest {
 	
 	static WebDriver driver=new ChromeDriver();
 	
-	@Test (priority = 1)
+	@BeforeTest  
 	public void OpenBrowser() {
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"src/test/resources/driver/chromedriver.exe");
 			
 	}
-    @Test(priority=2)	
+    @Test(priority=1)	
 	public void OpenWebsite() {
-		String url="https://dsportalapp.herokuapp.com/";
+		String url="http://dsportalapp.herokuapp.com/";
 		driver.get(url);
 		driver.manage().window().maximize();
 		
