@@ -17,7 +17,7 @@ public class HomeTest {
 	
 	@BeforeTest  
 	public void OpenBrowser() {
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"src/test/resources/driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"src/test/resources/driver/chrome.exe");
 			
 	}
     @Test(priority=1)	
