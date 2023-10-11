@@ -1,12 +1,13 @@
 package pages;
 
-import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import dsutilities.LoggerLoad;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Iterator;
+import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
@@ -14,17 +15,49 @@ import org.openqa.selenium.WebElement;
 
 public class RegistrationTest extends HomeTest {
 	
-	XSSFWorkbook ExcelWBook = null;
-	XSSFSheet ExcelWSheet;
-	
-	@BeforeTest
-	public void launchBrowser() {
-		System.out.println("launching Chrome browser");
-	
-	}
 	@Test
-	public void testHome() {
+	public void testHome() throws IOException, InterruptedException {
+		String  url="https://dsportalapp.herokuapp.com/home";
+		driver.get(url);
+		WebElement registerLink = driver.findElement(By.linkText("Register"));
+		registerLink.click();	
+		String path = System.getProperty("user.dir")+"/src/test/resources/UserData/DSAlgo.xlsx";
+		LoggerLoad.info(path);
+		File ExcelFile = new File(path);
+		FileInputStream Fis = new FileInputStream(ExcelFile);
+		XSSFWorkbook workbook = new XSSFWorkbook(Fis);
+		XSSFSheet sheet = workbook.getSheet("Sheet1");
+		Iterator<Row> row = sheet.rowIterator();
 		
+		while(row.hasNext()) {
+			
+			Row currRow = row.next();
+			
+			if(currRow.getCell(0) != null) {
+				
+				driver.findElement(By.id("id_username")).sendKeys(currRow.getCell(0).toString());
+			} 
+			
+			if(currRow.getCell(1) != null) {
+			
+				driver.findElement(By.id("id_password1")).sendKeys(currRow.getCell(1).toString());
+			}
+			
+			if(currRow.getCell(2) != null) {
+				driver.findElement(By.id("id_password2")).sendKeys(currRow.getCell(2).toString());
+			}
+			
+		WebElement registerButton = driver.findElement(By.xpath("//input[@type='submit' and @value='Register']"));
+		registerButton.click();
+}	
+	}
+}
+
+	
+		
+	
+		/*XSSFWorkbook ExcelWBook = null;
+		XSSFSheet ExcelWSheet;	
 		File excelFilePath =  new File (System.getProperty("user.dir")+"/src/test/resources/UserData/DSAlgo.xlsx");
 		FileInputStream inputstream = null;
 		try {
@@ -32,19 +65,7 @@ public class RegistrationTest extends HomeTest {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		String url = "https://dsportalapp.herokuapp.com/home";
-		String expected = "NumpyNinja";
-		driver.get(url);
-		String actual = driver.getTitle();
-		Assert.assertEquals(actual,expected);
-		WebElement registerLink = driver.findElement(By.linkText("Register"));
-		registerLink.click();
-	    try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-	
+		
 	try {
 		ExcelWBook = new XSSFWorkbook(inputstream);
 	} catch (IOException e) {
@@ -58,22 +79,11 @@ public class RegistrationTest extends HomeTest {
      //read row outer for loop
      for(int currentRow = 0; currentRow<=ttlRows;currentRow++)
      {
-
-    	 //WebDriver driver = new ChromeDriver();
-    	 //driver.get("https://dsportalapp.herokuapp.com/register");
     	 driver.findElement(By.id("id_username")).sendKeys(ExcelWSheet.getRow(currentRow).getCell(0).toString());
     	 driver.findElement(By.id("id_password1")).sendKeys(ExcelWSheet.getRow(currentRow).getCell(1).toString());
     	 driver.findElement(By.id("id_password2")).sendKeys(ExcelWSheet.getRow(currentRow).getCell(2).toString());
     	 WebElement registerButton = driver.findElement(By.xpath("//input[@type='submit' and @value='Register']"));
          registerButton.click();
-         try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-    	 System.out.println("\n");
-     } 
           try {
 			ExcelWBook.close();
 		} catch (IOException e) {
@@ -81,7 +91,9 @@ public class RegistrationTest extends HomeTest {
 			e.printStackTrace();
 		}
       }
+	}
+}*/
 
 
 
-}
+

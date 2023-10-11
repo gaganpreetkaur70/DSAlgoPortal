@@ -4,7 +4,11 @@
 <value>Chrome</value>
 </parameter>
 <parameter>
-	<key>project</key>
+	<key>Project Name</key>
 <value>dsalgo</value>
+</parameter>
+<parameter>
+	<key>Framework</key>
+<value>TestNG</value>
 </parameter>
 </environment>
